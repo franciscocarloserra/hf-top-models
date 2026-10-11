@@ -23,3 +23,4 @@ The Graphs tab (`dashboard.js`, Observable Plot from a CDN) charts the same data
 - Params come from safetensors metadata; GGUF-only repos have none.
 - `data/train_code.txt` is a hand-checked list of models whose card links training or fine-tuning code. It is not scraped automatically.
 - Papers are the `arxiv:` tags HF extracts from the card.
+- `data/cards/` has the model card READMEs as of 2026-10-11 (299 of 300), so you don't need to download them again.
