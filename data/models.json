@@ -1,0 +1,3939 @@
+{
+ "generated": "2026-10-11",
+ "since": "2025-10-11",
+ "models": [
+  {
+   "id": "Qwen/Qwen3.8-27B",
+   "publisher": "Qwen",
+   "model": "Qwen3.8-27B",
+   "type": "image-text-to-text",
+   "params": 27781427952,
+   "likes": 17461,
+   "downloads_30d": 6768654,
+   "created": "2026-08-05",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "moonshotai/Kimi-K3",
+   "publisher": "moonshotai",
+   "model": "Kimi-K3",
+   "type": "image-text-to-text",
+   "params": 2779931837184,
+   "likes": 11660,
+   "downloads_30d": 1160630,
+   "created": "2026-06-13",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "publisher": "Lightricks",
+   "model": "LTX-2.5",
+   "type": "image-to-video",
+   "params": null,
+   "likes": 7213,
+   "downloads_30d": 1720888,
+   "created": "2026-07-23",
+   "train_code": true,
+   "papers": [
+    "2601.03233"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen3.8-Flash-Next",
+   "publisher": "Qwen",
+   "model": "Qwen3.8-Flash-Next",
+   "type": "image-text-to-text",
+   "params": 179999981459,
+   "likes": 6094,
+   "downloads_30d": 1798393,
+   "created": "2026-08-24",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-H3",
+   "publisher": "MiniMaxAI",
+   "model": "MiniMax-H3",
+   "type": "image-text-to-video",
+   "params": 33122992896,
+   "likes": 6028,
+   "downloads_30d": 3596813,
+   "created": "2026-07-28",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4-Pro",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-V4-Pro",
+   "type": "text-generation",
+   "params": 1598839674782,
+   "likes": 5647,
+   "downloads_30d": 386263,
+   "created": "2026-04-22",
+   "train_code": false,
+   "papers": [
+    "2606.19348"
+   ]
+  },
+  {
+   "id": "convaiinnovations/laya",
+   "publisher": "convaiinnovations",
+   "model": "laya",
+   "type": "text-classification",
+   "params": 421293830,
+   "likes": 5478,
+   "downloads_30d": 42936,
+   "created": "2026-09-18",
+   "train_code": true,
+   "papers": []
+  },
+  {
+   "id": "Tongyi-MAI/Z-Image-Turbo",
+   "publisher": "Tongyi-MAI",
+   "model": "Z-Image-Turbo",
+   "type": "text-to-image",
+   "params": 6154908736,
+   "likes": 5437,
+   "downloads_30d": 631219,
+   "created": "2025-11-25",
+   "train_code": false,
+   "papers": [
+    "2511.22699",
+    "2511.22677",
+    "2511.13649"
+   ]
+  },
+  {
+   "id": "zai-org/GLM-5.2",
+   "publisher": "zai-org",
+   "model": "GLM-5.2",
+   "type": "text-generation",
+   "params": 753329940480,
+   "likes": 5152,
+   "downloads_30d": 648587,
+   "created": "2026-06-16",
+   "train_code": false,
+   "papers": [
+    "2602.15763",
+    "2603.12201"
+   ]
+  },
+  {
+   "id": "unsloth/Qwen3.8-27B-GGUF",
+   "publisher": "unsloth",
+   "model": "Qwen3.8-27B-GGUF",
+   "type": null,
+   "params": null,
+   "likes": 5013,
+   "downloads_30d": 6449020,
+   "created": "2026-08-13",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "baidu/Unlimited-OCR",
+   "publisher": "baidu",
+   "model": "Unlimited-OCR",
+   "type": "image-text-to-text",
+   "params": 3336106240,
+   "likes": 4347,
+   "downloads_30d": 1264379,
+   "created": "2026-06-19",
+   "train_code": false,
+   "papers": [
+    "2606.23050"
+   ]
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-V4.1-Flash",
+   "type": "image-text-to-text",
+   "params": 763205315794,
+   "likes": 4338,
+   "downloads_30d": 1355278,
+   "created": "2026-09-10",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/gemma-4-31B-it",
+   "publisher": "google",
+   "model": "gemma-4-31B-it",
+   "type": "image-text-to-text",
+   "params": 31273088876,
+   "likes": 4079,
+   "downloads_30d": 9587016,
+   "created": "2026-03-11",
+   "train_code": false,
+   "papers": [
+    "2607.02770"
+   ]
+  },
+  {
+   "id": "facebook/sam3",
+   "publisher": "facebook",
+   "model": "sam3",
+   "type": "mask-generation",
+   "params": 859922360,
+   "likes": 4024,
+   "downloads_30d": 2081596,
+   "created": "2025-11-07",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-V4-Flash-0731",
+   "type": "text-generation",
+   "params": 304180418494,
+   "likes": 4024,
+   "downloads_30d": 4494443,
+   "created": "2026-07-31",
+   "train_code": false,
+   "papers": [
+    "2606.19348"
+   ]
+  },
+  {
+   "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "publisher": "abenzerps",
+   "model": "Qwen-Image-2.1-Uncensored-GGUF",
+   "type": "text-to-image",
+   "params": null,
+   "likes": 3910,
+   "downloads_30d": 2096562,
+   "created": "2026-09-20",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+   "publisher": "HauhauCS",
+   "model": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 3874,
+   "downloads_30d": 854039,
+   "created": "2026-04-17",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "autotrust/JEV-27B-VL",
+   "publisher": "autotrust",
+   "model": "JEV-27B-VL",
+   "type": "image-text-to-text",
+   "params": 27781427952,
+   "likes": 3771,
+   "downloads_30d": 1540787,
+   "created": "2026-09-30",
+   "train_code": false,
+   "papers": [
+    "2512.16899"
+   ]
+  },
+  {
+   "id": "Edge0/Edge0-35B-A3B-preview",
+   "publisher": "Edge0",
+   "model": "Edge0-35B-A3B-preview",
+   "type": "text-generation",
+   "params": 34660610688,
+   "likes": 3568,
+   "downloads_30d": 81093,
+   "created": "2026-09-08",
+   "train_code": false,
+   "papers": [
+    "2609.18063"
+   ]
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-OCR",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-OCR",
+   "type": "image-text-to-text",
+   "params": 3336106240,
+   "likes": 3390,
+   "downloads_30d": 2038311,
+   "created": "2025-10-17",
+   "train_code": false,
+   "papers": [
+    "2510.18234"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen-Image-2.1",
+   "publisher": "Qwen",
+   "model": "Qwen-Image-2.1",
+   "type": "text-to-image",
+   "params": 7115124736,
+   "likes": 3209,
+   "downloads_30d": 128839,
+   "created": "2026-09-14",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "nvidia/LocateAnything-3B",
+   "publisher": "nvidia",
+   "model": "LocateAnything-3B",
+   "type": "image-text-to-text",
+   "params": 3830665968,
+   "likes": 3109,
+   "downloads_30d": 272303,
+   "created": "2026-03-02",
+   "train_code": false,
+   "papers": [
+    "2605.27365",
+    "2504.07491",
+    "2109.10852",
+    "2510.12798",
+    "2303.05499",
+    "1405.0312",
+    "1908.03195",
+    "2504.07981"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen3.6-35B-A3B",
+   "publisher": "Qwen",
+   "model": "Qwen3.6-35B-A3B",
+   "type": "image-text-to-text",
+   "params": 35951822704,
+   "likes": 2957,
+   "downloads_30d": 3559902,
+   "created": "2026-04-15",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+   "publisher": "Jackrong",
+   "model": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+   "type": "image-text-to-text",
+   "params": 27781427952,
+   "likes": 2943,
+   "downloads_30d": 21924,
+   "created": "2026-02-27",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+   "publisher": "yuxinlu1",
+   "model": "gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 2927,
+   "downloads_30d": 299815,
+   "created": "2026-06-10",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "TaichuAI/ZDTaichu5.0-9B",
+   "publisher": "TaichuAI",
+   "model": "ZDTaichu5.0-9B",
+   "type": "image-text-to-text",
+   "params": 9794197512,
+   "likes": 2917,
+   "downloads_30d": 13248,
+   "created": "2026-09-04",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "moonshotai/Kimi-K2.5",
+   "publisher": "moonshotai",
+   "model": "Kimi-K2.5",
+   "type": "image-text-to-text",
+   "params": 1026879376368,
+   "likes": 2876,
+   "downloads_30d": 328153,
+   "created": "2026-01-01",
+   "train_code": false,
+   "papers": [
+    "2602.02276"
+   ]
+  },
+  {
+   "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+   "publisher": "empero-ai",
+   "model": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 2814,
+   "downloads_30d": 504991,
+   "created": "2026-06-19",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "nvidia/personaplex-7b-v1",
+   "publisher": "nvidia",
+   "model": "personaplex-7b-v1",
+   "type": "audio-to-audio",
+   "params": 8371408896,
+   "likes": 2801,
+   "downloads_30d": 166385,
+   "created": "2025-12-31",
+   "train_code": false,
+   "papers": [
+    "2602.06053",
+    "2503.04721",
+    "2110.13900",
+    "2410.00037"
+   ]
+  },
+  {
+   "id": "zai-org/GLM-5.3-Flash",
+   "publisher": "zai-org",
+   "model": "GLM-5.3-Flash",
+   "type": "image-text-to-text",
+   "params": 321323031390,
+   "likes": 2792,
+   "downloads_30d": 6479110,
+   "created": "2026-08-25",
+   "train_code": false,
+   "papers": [
+    "2602.15763"
+   ]
+  },
+  {
+   "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "publisher": "prism-ml",
+   "model": "Ternary-Bonsai-2-27B-gguf",
+   "type": "text-generation",
+   "params": null,
+   "likes": 2612,
+   "downloads_30d": 4457576,
+   "created": "2026-09-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "TokenRhythm/NeoHorse-1-4B",
+   "publisher": "TokenRhythm",
+   "model": "NeoHorse-1-4B",
+   "type": "text-generation",
+   "params": 4205751296,
+   "likes": 2545,
+   "downloads_30d": 24171,
+   "created": "2026-09-05",
+   "train_code": false,
+   "papers": [
+    "2609.08183"
+   ]
+  },
+  {
+   "id": "Edge0/Audio8-ASR-Infinite",
+   "publisher": "Edge0",
+   "model": "Audio8-ASR-Infinite",
+   "type": "automatic-speech-recognition",
+   "params": 4086224640,
+   "likes": 2432,
+   "downloads_30d": 40889,
+   "created": "2026-09-21",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+   "publisher": "DavidAU",
+   "model": "Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 2424,
+   "downloads_30d": 484710,
+   "created": "2026-07-17",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "black-forest-labs/FLUX.2-dev",
+   "publisher": "black-forest-labs",
+   "model": "FLUX.2-dev",
+   "type": "image-to-image",
+   "params": 32223281152,
+   "likes": 2394,
+   "downloads_30d": 411486,
+   "created": "2025-11-22",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "circlestone-labs/Anima",
+   "publisher": "circlestone-labs",
+   "model": "Anima",
+   "type": null,
+   "params": null,
+   "likes": 2383,
+   "downloads_30d": 1264926,
+   "created": "2026-01-29",
+   "train_code": true,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3.6-27B",
+   "publisher": "Qwen",
+   "model": "Qwen3.6-27B",
+   "type": "image-text-to-text",
+   "params": 27781427952,
+   "likes": 2318,
+   "downloads_30d": 2254212,
+   "created": "2026-04-21",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "autotrust/GEV-26B-Decide",
+   "publisher": "autotrust",
+   "model": "GEV-26B-Decide",
+   "type": "text-classification",
+   "params": 25805936206,
+   "likes": 2317,
+   "downloads_30d": 916313,
+   "created": "2026-10-02",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4-Flash",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-V4-Flash",
+   "type": "text-generation",
+   "params": 290944616402,
+   "likes": 2289,
+   "downloads_30d": 867331,
+   "created": "2026-04-22",
+   "train_code": false,
+   "papers": [
+    "2606.19348"
+   ]
+  },
+  {
+   "id": "HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+   "publisher": "HauhauCS",
+   "model": "Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
+   "type": null,
+   "params": null,
+   "likes": 2248,
+   "downloads_30d": 714809,
+   "created": "2026-03-04",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Comfy-Org/MiniMax-H3",
+   "publisher": "Comfy-Org",
+   "model": "MiniMax-H3",
+   "type": null,
+   "params": null,
+   "likes": 2216,
+   "downloads_30d": 23218255,
+   "created": "2026-07-30",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "zai-org/GLM-5.3",
+   "publisher": "zai-org",
+   "model": "GLM-5.3",
+   "type": "text-generation",
+   "params": 753329940480,
+   "likes": 2172,
+   "downloads_30d": 1670161,
+   "created": "2026-08-25",
+   "train_code": false,
+   "papers": [
+    "2602.15763"
+   ]
+  },
+  {
+   "id": "SulphurAI/Sulphur-2-base",
+   "publisher": "SulphurAI",
+   "model": "Sulphur-2-base",
+   "type": "text-to-video",
+   "params": null,
+   "likes": 2141,
+   "downloads_30d": 98477,
+   "created": "2026-05-03",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3.5-9B",
+   "publisher": "Qwen",
+   "model": "Qwen3.5-9B",
+   "type": "image-text-to-text",
+   "params": 9653104368,
+   "likes": 2138,
+   "downloads_30d": 8290657,
+   "created": "2026-02-27",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "zai-org/GLM-OCR",
+   "publisher": "zai-org",
+   "model": "GLM-OCR",
+   "type": "image-to-text",
+   "params": 1325258240,
+   "likes": 2136,
+   "downloads_30d": 1785895,
+   "created": "2026-01-30",
+   "train_code": false,
+   "papers": [
+    "2603.10910"
+   ]
+  },
+  {
+   "id": "zai-org/GLM-5",
+   "publisher": "zai-org",
+   "model": "GLM-5",
+   "type": "text-generation",
+   "params": 753864139008,
+   "likes": 2123,
+   "downloads_30d": 626663,
+   "created": "2026-02-11",
+   "train_code": false,
+   "papers": [
+    "2602.15763"
+   ]
+  },
+  {
+   "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "publisher": "ISTA-DASLab",
+   "model": "Qwen3.8-27B-GSQ-RCO-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 2123,
+   "downloads_30d": 1484655,
+   "created": "2026-08-28",
+   "train_code": false,
+   "papers": [
+    "2604.18556",
+    "2605.00649"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+   "publisher": "Qwen",
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice",
+   "type": "text-to-speech",
+   "params": 1916676352,
+   "likes": 2095,
+   "downloads_30d": 2224976,
+   "created": "2026-01-21",
+   "train_code": false,
+   "papers": [
+    "2601.15621"
+   ]
+  },
+  {
+   "id": "zai-org/GLM-4.7",
+   "publisher": "zai-org",
+   "model": "GLM-4.7",
+   "type": "text-generation",
+   "params": 358337791296,
+   "likes": 2058,
+   "downloads_30d": 103923,
+   "created": "2025-12-22",
+   "train_code": false,
+   "papers": [
+    "2508.06471"
+   ]
+  },
+  {
+   "id": "Cloudflare/clef",
+   "publisher": "Cloudflare",
+   "model": "clef",
+   "type": "image-text-to-text",
+   "params": 27356728560,
+   "likes": 2008,
+   "downloads_30d": 13579,
+   "created": "2026-09-30",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "meta-models/Muse-Glimmer-30B",
+   "publisher": "meta-models",
+   "model": "Muse-Glimmer-30B",
+   "type": "image-text-to-text",
+   "params": 29776626688,
+   "likes": 1996,
+   "downloads_30d": 250866,
+   "created": "2026-08-09",
+   "train_code": false,
+   "papers": [
+    "2504.13181",
+    "2602.06036"
+   ]
+  },
+  {
+   "id": "Lightricks/LTX-2.3",
+   "publisher": "Lightricks",
+   "model": "LTX-2.3",
+   "type": "image-to-video",
+   "params": null,
+   "likes": 1946,
+   "downloads_30d": 949943,
+   "created": "2026-03-04",
+   "train_code": true,
+   "papers": [
+    "2601.03233"
+   ]
+  },
+  {
+   "id": "zai-org/GLM-4.7-Flash",
+   "publisher": "zai-org",
+   "model": "GLM-4.7-Flash",
+   "type": "text-generation",
+   "params": 31221488576,
+   "likes": 1866,
+   "downloads_30d": 1435437,
+   "created": "2026-01-19",
+   "train_code": false,
+   "papers": [
+    "2508.06471"
+   ]
+  },
+  {
+   "id": "zai-org/GLM-5.1",
+   "publisher": "zai-org",
+   "model": "GLM-5.1",
+   "type": "text-generation",
+   "params": 753864139008,
+   "likes": 1840,
+   "downloads_30d": 399332,
+   "created": "2026-04-03",
+   "train_code": false,
+   "papers": [
+    "2602.15763"
+   ]
+  },
+  {
+   "id": "XingChen-AGI/Xing4.0-29B-A4B",
+   "publisher": "XingChen-AGI",
+   "model": "Xing4.0-29B-A4B",
+   "type": "text-generation",
+   "params": 31215031088,
+   "likes": 1835,
+   "downloads_30d": 51665,
+   "created": "2026-09-16",
+   "train_code": false,
+   "papers": [
+    "2512.24157",
+    "2507.18013"
+   ]
+  },
+  {
+   "id": "froggeric/Qwen-Fixed-Chat-Templates",
+   "publisher": "froggeric",
+   "model": "Qwen-Fixed-Chat-Templates",
+   "type": null,
+   "params": null,
+   "likes": 1825,
+   "downloads_30d": 0,
+   "created": "2026-04-23",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "thinkingmachines/Inkling",
+   "publisher": "thinkingmachines",
+   "model": "Inkling",
+   "type": "image-text-to-text",
+   "params": 952377623626,
+   "likes": 1810,
+   "downloads_30d": 1019604,
+   "created": "2026-07-14",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
+   "publisher": "orcarouter",
+   "model": "Qwen3.8-27B-Uncensored-FP8",
+   "type": "image-text-to-text",
+   "params": 27781427952,
+   "likes": 1791,
+   "downloads_30d": 160791,
+   "created": "2026-08-15",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Lightricks/LTX-2",
+   "publisher": "Lightricks",
+   "model": "LTX-2",
+   "type": "image-to-video",
+   "params": 18876174592,
+   "likes": 1789,
+   "downloads_30d": 271601,
+   "created": "2026-01-03",
+   "train_code": true,
+   "papers": [
+    "2601.03233"
+   ]
+  },
+  {
+   "id": "openai/privacy-filter",
+   "publisher": "openai",
+   "model": "privacy-filter",
+   "type": "token-classification",
+   "params": 1399486865,
+   "likes": 1784,
+   "downloads_30d": 331907,
+   "created": "2026-04-17",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+   "publisher": "HauhauCS",
+   "model": "Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1748,
+   "downloads_30d": 2023752,
+   "created": "2026-08-17",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+   "publisher": "dealignai",
+   "model": "Gemma-4-31B-JANG_4M-CRACK",
+   "type": "image-text-to-text",
+   "params": 20163950444,
+   "likes": 1739,
+   "downloads_30d": 16487,
+   "created": "2026-04-04",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "openbmb/MiniCPM5-2B",
+   "publisher": "openbmb",
+   "model": "MiniCPM5-2B",
+   "type": "text-generation",
+   "params": 2516756480,
+   "likes": 1735,
+   "downloads_30d": 1282719,
+   "created": "2026-09-06",
+   "train_code": true,
+   "papers": [
+    "2506.07900",
+    "2602.09003"
+   ]
+  },
+  {
+   "id": "moonshotai/Kimi-K2-Thinking",
+   "publisher": "moonshotai",
+   "model": "Kimi-K2-Thinking",
+   "type": "text-generation",
+   "params": 1026408240256,
+   "likes": 1716,
+   "downloads_30d": 59707,
+   "created": "2025-11-04",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3-Coder-Next",
+   "publisher": "Qwen",
+   "model": "Qwen3-Coder-Next",
+   "type": "text-generation",
+   "params": 79674391296,
+   "likes": 1683,
+   "downloads_30d": 593369,
+   "created": "2026-01-30",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/gemma-4-E4B-it",
+   "publisher": "google",
+   "model": "gemma-4-E4B-it",
+   "type": "any-to-any",
+   "params": 7996156490,
+   "likes": 1679,
+   "downloads_30d": 4256825,
+   "created": "2026-03-02",
+   "train_code": false,
+   "papers": [
+    "2607.02770"
+   ]
+  },
+  {
+   "id": "openbmb/VoxCPM2",
+   "publisher": "openbmb",
+   "model": "VoxCPM2",
+   "type": "text-to-speech",
+   "params": 2290004544,
+   "likes": 1670,
+   "downloads_30d": 633653,
+   "created": "2026-04-03",
+   "train_code": false,
+   "papers": [
+    "2509.24650"
+   ]
+  },
+  {
+   "id": "unsloth/Qwen3.6-35B-A3B-GGUF",
+   "publisher": "unsloth",
+   "model": "Qwen3.6-35B-A3B-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1669,
+   "downloads_30d": 1234313,
+   "created": "2026-04-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "PaddlePaddle/PaddleOCR-VL",
+   "publisher": "PaddlePaddle",
+   "model": "PaddleOCR-VL",
+   "type": "image-text-to-text",
+   "params": 958588736,
+   "likes": 1667,
+   "downloads_30d": 7552,
+   "created": "2025-10-16",
+   "train_code": false,
+   "papers": [
+    "2510.14528"
+   ]
+  },
+  {
+   "id": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+   "publisher": "yuxinlu1",
+   "model": "gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 1658,
+   "downloads_30d": 611594,
+   "created": "2026-06-19",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "black-forest-labs/FLUX.2-klein-9B",
+   "publisher": "black-forest-labs",
+   "model": "FLUX.2-klein-9B",
+   "type": "image-to-image",
+   "params": 9078581248,
+   "likes": 1651,
+   "downloads_30d": 185711,
+   "created": "2026-01-14",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/gemma-4-12B-it",
+   "publisher": "google",
+   "model": "gemma-4-12B-it",
+   "type": "any-to-any",
+   "params": 11959730224,
+   "likes": 1651,
+   "downloads_30d": 1603246,
+   "created": "2026-05-23",
+   "train_code": false,
+   "papers": [
+    "2607.02770"
+   ]
+  },
+  {
+   "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "publisher": "DavidAU",
+   "model": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1645,
+   "downloads_30d": 1960274,
+   "created": "2026-09-01",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/gemma-4-26B-A4B-it",
+   "publisher": "google",
+   "model": "gemma-4-26B-A4B-it",
+   "type": "image-text-to-text",
+   "params": 25805936206,
+   "likes": 1623,
+   "downloads_30d": 11657345,
+   "created": "2026-03-11",
+   "train_code": false,
+   "papers": [
+    "2607.02770"
+   ]
+  },
+  {
+   "id": "moonshotai/Kimi-K2.6",
+   "publisher": "moonshotai",
+   "model": "Kimi-K2.6",
+   "type": "image-text-to-text",
+   "params": 1026879376368,
+   "likes": 1613,
+   "downloads_30d": 417247,
+   "created": "2026-04-14",
+   "train_code": false,
+   "papers": [
+    "2602.02276"
+   ]
+  },
+  {
+   "id": "krea/Krea-2-Turbo",
+   "publisher": "krea",
+   "model": "Krea-2-Turbo",
+   "type": "text-to-image",
+   "params": 12820073036,
+   "likes": 1582,
+   "downloads_30d": 90750,
+   "created": "2026-06-18",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA",
+   "publisher": "fal",
+   "model": "Qwen-Image-Edit-2511-Multiple-Angles-LoRA",
+   "type": "image-to-image",
+   "params": null,
+   "likes": 1572,
+   "downloads_30d": 60968,
+   "created": "2026-01-07",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-M3",
+   "publisher": "MiniMaxAI",
+   "model": "MiniMax-M3",
+   "type": "image-text-to-text",
+   "params": 427040140160,
+   "likes": 1568,
+   "downloads_30d": 205186,
+   "created": "2026-06-02",
+   "train_code": false,
+   "papers": [
+    "2606.13392"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen3.5-397B-A17B",
+   "publisher": "Qwen",
+   "model": "Qwen3.5-397B-A17B",
+   "type": "image-text-to-text",
+   "params": 403397928944,
+   "likes": 1567,
+   "downloads_30d": 485853,
+   "created": "2026-02-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/embeddinggemma-2",
+   "publisher": "google",
+   "model": "embeddinggemma-2",
+   "type": "feature-extraction",
+   "params": 744371512,
+   "likes": 1557,
+   "downloads_30d": 45605,
+   "created": "2026-09-14",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+   "publisher": "orcarouter",
+   "model": "Qwen3.8-27B-Uncensored-MLX",
+   "type": "image-text-to-text",
+   "params": 27356728560,
+   "likes": 1547,
+   "downloads_30d": 77987,
+   "created": "2026-08-17",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+   "publisher": "JonathanColetti",
+   "model": "Qwen3.8-27B-Uncensored-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 1531,
+   "downloads_30d": 2363619,
+   "created": "2026-08-14",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3.5-35B-A3B",
+   "publisher": "Qwen",
+   "model": "Qwen3.5-35B-A3B",
+   "type": "image-text-to-text",
+   "params": 35951822704,
+   "likes": 1523,
+   "downloads_30d": 1456773,
+   "created": "2026-02-24",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "openbmb/MiniCPM-o-4_5",
+   "publisher": "openbmb",
+   "model": "MiniCPM-o-4_5",
+   "type": "any-to-any",
+   "params": 9371787666,
+   "likes": 1511,
+   "downloads_30d": 704979,
+   "created": "2026-02-03",
+   "train_code": true,
+   "papers": [
+    "2408.01800"
+   ]
+  },
+  {
+   "id": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+   "publisher": "HauhauCS",
+   "model": "Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1509,
+   "downloads_30d": 125846,
+   "created": "2026-03-10",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V3.2",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-V3.2",
+   "type": "text-generation",
+   "params": 685355329792,
+   "likes": 1508,
+   "downloads_30d": 4668170,
+   "created": "2025-12-01",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-M2.5",
+   "publisher": "MiniMaxAI",
+   "model": "MiniMax-M2.5",
+   "type": "text-generation",
+   "params": 228703644928,
+   "likes": 1508,
+   "downloads_30d": 600869,
+   "created": "2026-02-12",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-M2",
+   "publisher": "MiniMaxAI",
+   "model": "MiniMax-M2",
+   "type": "text-generation",
+   "params": 228689764864,
+   "likes": 1503,
+   "downloads_30d": 231626,
+   "created": "2025-10-22",
+   "train_code": false,
+   "papers": [
+    "2504.07164",
+    "2509.06501",
+    "2509.13160"
+   ]
+  },
+  {
+   "id": "k2-fsa/OmniVoice",
+   "publisher": "k2-fsa",
+   "model": "OmniVoice",
+   "type": "text-to-speech",
+   "params": 612577288,
+   "likes": 1503,
+   "downloads_30d": 1470158,
+   "created": "2026-03-30",
+   "train_code": false,
+   "papers": [
+    "2604.00688"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen-Image-Edit-2511",
+   "publisher": "Qwen",
+   "model": "Qwen-Image-Edit-2511",
+   "type": "image-to-image",
+   "params": 20430401088,
+   "likes": 1456,
+   "downloads_30d": 213003,
+   "created": "2025-12-17",
+   "train_code": false,
+   "papers": [
+    "2508.02324"
+   ]
+  },
+  {
+   "id": "orcarouter/Qwen3.8-27B-Uncensored-GGUF",
+   "publisher": "orcarouter",
+   "model": "Qwen3.8-27B-Uncensored-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1440,
+   "downloads_30d": 114454,
+   "created": "2026-08-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-Music3",
+   "publisher": "MiniMaxAI",
+   "model": "MiniMax-Music3",
+   "type": "text-to-audio",
+   "params": 2431905920,
+   "likes": 1435,
+   "downloads_30d": 6859,
+   "created": "2026-08-07",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+   "publisher": "OBLITERATUS",
+   "model": "Qwen3.8-27B-OBLITERATED",
+   "type": "text-generation",
+   "params": 27781427952,
+   "likes": 1423,
+   "downloads_30d": 629820,
+   "created": "2026-08-19",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "prism-ml/Ternary-Bonsai-27B-gguf",
+   "publisher": "prism-ml",
+   "model": "Ternary-Bonsai-27B-gguf",
+   "type": "text-generation",
+   "params": null,
+   "likes": 1413,
+   "downloads_30d": 595994,
+   "created": "2026-07-04",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "moonshotai/Kimi-K2.7-Code",
+   "publisher": "moonshotai",
+   "model": "Kimi-K2.7-Code",
+   "type": "image-text-to-text",
+   "params": 1026879376368,
+   "likes": 1412,
+   "downloads_30d": 113759,
+   "created": "2026-06-11",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "fishaudio/s2-pro",
+   "publisher": "fishaudio",
+   "model": "s2-pro",
+   "type": "text-to-speech",
+   "params": 4561852416,
+   "likes": 1404,
+   "downloads_30d": 31187,
+   "created": "2026-03-09",
+   "train_code": false,
+   "papers": [
+    "2603.08823"
+   ]
+  },
+  {
+   "id": "XHToken/Spark-X2.5-4B",
+   "publisher": "XHToken",
+   "model": "Spark-X2.5-4B",
+   "type": "text-generation",
+   "params": 4112079360,
+   "likes": 1400,
+   "downloads_30d": 28829,
+   "created": "2026-08-24",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Alissonerdx/BFS-Best-Face-Swap",
+   "publisher": "Alissonerdx",
+   "model": "BFS-Best-Face-Swap",
+   "type": "image-to-image",
+   "params": null,
+   "likes": 1365,
+   "downloads_30d": 253548,
+   "created": "2025-11-07",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-M2.1",
+   "publisher": "MiniMaxAI",
+   "model": "MiniMax-M2.1",
+   "type": "text-generation",
+   "params": 228689764864,
+   "likes": 1361,
+   "downloads_30d": 11010,
+   "created": "2025-12-20",
+   "train_code": false,
+   "papers": [
+    "2509.06501"
+   ]
+  },
+  {
+   "id": "HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+   "publisher": "HauhauCS",
+   "model": "Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1353,
+   "downloads_30d": 1426551,
+   "created": "2026-04-02",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "unsloth/Qwen3.6-27B-MTP-GGUF",
+   "publisher": "unsloth",
+   "model": "Qwen3.6-27B-MTP-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1325,
+   "downloads_30d": 602627,
+   "created": "2026-05-11",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "microsoft/TRELLIS.2-4B",
+   "publisher": "microsoft",
+   "model": "TRELLIS.2-4B",
+   "type": "image-to-3d",
+   "params": null,
+   "likes": 1309,
+   "downloads_30d": 1948635,
+   "created": "2025-12-01",
+   "train_code": false,
+   "papers": [
+    "2512.14692"
+   ]
+  },
+  {
+   "id": "microsoft/VibeVoice-ASR",
+   "publisher": "microsoft",
+   "model": "VibeVoice-ASR",
+   "type": "automatic-speech-recognition",
+   "params": 8674021857,
+   "likes": 1303,
+   "downloads_30d": 707065,
+   "created": "2026-01-21",
+   "train_code": false,
+   "papers": [
+    "2601.18184"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen3.8-2.4T-A95B",
+   "publisher": "Qwen",
+   "model": "Qwen3.8-2.4T-A95B",
+   "type": "text-generation",
+   "params": 2446182725504,
+   "likes": 1302,
+   "downloads_30d": 32082,
+   "created": "2026-08-08",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "microsoft/VibeVoice-Realtime-0.5B",
+   "publisher": "microsoft",
+   "model": "VibeVoice-Realtime-0.5B",
+   "type": "text-to-speech",
+   "params": 1017626722,
+   "likes": 1298,
+   "downloads_30d": 222923,
+   "created": "2025-12-04",
+   "train_code": false,
+   "papers": [
+    "2508.19205",
+    "2412.08635"
+   ]
+  },
+  {
+   "id": "XingChen-AGI/TeleOCR",
+   "publisher": "XingChen-AGI",
+   "model": "TeleOCR",
+   "type": "image-text-to-text",
+   "params": 1415072768,
+   "likes": 1290,
+   "downloads_30d": 45136,
+   "created": "2026-08-14",
+   "train_code": false,
+   "papers": [
+    "2608.12898"
+   ]
+  },
+  {
+   "id": "google/diffusiongemma-26B-A4B-it",
+   "publisher": "google",
+   "model": "diffusiongemma-26B-A4B-it",
+   "type": "image-text-to-text",
+   "params": 25823778864,
+   "likes": 1282,
+   "downloads_30d": 652523,
+   "created": "2026-06-09",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Tongyi-MAI/Z-Image",
+   "publisher": "Tongyi-MAI",
+   "model": "Z-Image",
+   "type": "text-to-image",
+   "params": 6154908736,
+   "likes": 1265,
+   "downloads_30d": 52104,
+   "created": "2026-01-23",
+   "train_code": false,
+   "papers": [
+    "2511.22699"
+   ]
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "publisher": "huihui-ai",
+   "model": "Huihui-Qwen3.8-27B-abliterated-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1260,
+   "downloads_30d": 2156962,
+   "created": "2026-08-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-M2.7",
+   "publisher": "MiniMaxAI",
+   "model": "MiniMax-M2.7",
+   "type": "text-generation",
+   "params": 228689764864,
+   "likes": 1250,
+   "downloads_30d": 765368,
+   "created": "2026-04-09",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "tencent/Hy-MT2-1.8B",
+   "publisher": "tencent",
+   "model": "Hy-MT2-1.8B",
+   "type": "translation",
+   "params": 2038515712,
+   "likes": 1240,
+   "downloads_30d": 31424,
+   "created": "2026-05-11",
+   "train_code": true,
+   "papers": [
+    "2605.22064"
+   ]
+  },
+  {
+   "id": "openbmb/MiniCPM-V-4.6",
+   "publisher": "openbmb",
+   "model": "MiniCPM-V-4.6",
+   "type": "image-text-to-text",
+   "params": 1300428016,
+   "likes": 1229,
+   "downloads_30d": 211741,
+   "created": "2026-04-13",
+   "train_code": true,
+   "papers": [
+    "2604.27393",
+    "2509.18154",
+    "2408.01800",
+    "2605.08985"
+   ]
+  },
+  {
+   "id": "kyutai/pocket-tts",
+   "publisher": "kyutai",
+   "model": "pocket-tts",
+   "type": null,
+   "params": null,
+   "likes": 1221,
+   "downloads_30d": 1131,
+   "created": "2025-12-29",
+   "train_code": true,
+   "papers": [
+    "2509.06926"
+   ]
+  },
+  {
+   "id": "baidu/Qianfan-OCR",
+   "publisher": "baidu",
+   "model": "Qianfan-OCR",
+   "type": "image-text-to-text",
+   "params": 4741408256,
+   "likes": 1205,
+   "downloads_30d": 41908,
+   "created": "2026-03-18",
+   "train_code": false,
+   "papers": [
+    "2603.13398",
+    "2509.18189"
+   ]
+  },
+  {
+   "id": "black-forest-labs/FLUX.2-klein-base-9b-fp8",
+   "publisher": "black-forest-labs",
+   "model": "FLUX.2-klein-base-9b-fp8",
+   "type": "image-to-image",
+   "params": null,
+   "likes": 1198,
+   "downloads_30d": 37111,
+   "created": "2026-01-14",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "unsloth/gemma-4-26B-A4B-it-GGUF",
+   "publisher": "unsloth",
+   "model": "gemma-4-26B-A4B-it-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1198,
+   "downloads_30d": 599240,
+   "created": "2026-04-01",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+   "publisher": "nvidia",
+   "model": "nemotron-3.5-asr-streaming-0.6b",
+   "type": "automatic-speech-recognition",
+   "params": 637997088,
+   "likes": 1187,
+   "downloads_30d": 1284991,
+   "created": "2026-05-15",
+   "train_code": false,
+   "papers": [
+    "2312.17279",
+    "2305.05084"
+   ]
+  },
+  {
+   "id": "tencent/HY-MT1.5-1.8B",
+   "publisher": "tencent",
+   "model": "HY-MT1.5-1.8B",
+   "type": "translation",
+   "params": 2038515712,
+   "likes": 1185,
+   "downloads_30d": 6610,
+   "created": "2025-12-25",
+   "train_code": false,
+   "papers": [
+    "2512.24092"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen3-VL-8B-Instruct",
+   "publisher": "Qwen",
+   "model": "Qwen3-VL-8B-Instruct",
+   "type": "image-text-to-text",
+   "params": 8767123696,
+   "likes": 1176,
+   "downloads_30d": 8752198,
+   "created": "2025-10-11",
+   "train_code": false,
+   "papers": [
+    "2505.09388",
+    "2502.13923",
+    "2409.12191",
+    "2308.12966"
+   ]
+  },
+  {
+   "id": "CohereLabs/cohere-transcribe-03-2026",
+   "publisher": "CohereLabs",
+   "model": "cohere-transcribe-03-2026",
+   "type": "automatic-speech-recognition",
+   "params": 2065804048,
+   "likes": 1174,
+   "downloads_30d": 129680,
+   "created": "2026-03-24",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Nanbeige/Nanbeige4.1-3B",
+   "publisher": "Nanbeige",
+   "model": "Nanbeige4.1-3B",
+   "type": "text-generation",
+   "params": 3933637120,
+   "likes": 1172,
+   "downloads_30d": 2190,
+   "created": "2026-02-10",
+   "train_code": false,
+   "papers": [
+    "2602.13367"
+   ]
+  },
+  {
+   "id": "Qwen/Qwen-Image-Layered",
+   "publisher": "Qwen",
+   "model": "Qwen-Image-Layered",
+   "type": "image-text-to-image",
+   "params": 20430407232,
+   "likes": 1171,
+   "downloads_30d": 71739,
+   "created": "2025-12-17",
+   "train_code": false,
+   "papers": [
+    "2512.15603"
+   ]
+  },
+  {
+   "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
+   "publisher": "unsloth",
+   "model": "Qwen3.8-Flash-Next-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1168,
+   "downloads_30d": 1302219,
+   "created": "2026-08-26",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3-ASR-1.7B",
+   "publisher": "Qwen",
+   "model": "Qwen3-ASR-1.7B",
+   "type": "automatic-speech-recognition",
+   "params": 2349217408,
+   "likes": 1164,
+   "downloads_30d": 1086515,
+   "created": "2026-01-28",
+   "train_code": false,
+   "papers": [
+    "2601.21337"
+   ]
+  },
+  {
+   "id": "openbmb/MiniCPM5-1B",
+   "publisher": "openbmb",
+   "model": "MiniCPM5-1B",
+   "type": "text-generation",
+   "params": 1080632832,
+   "likes": 1154,
+   "downloads_30d": 377956,
+   "created": "2026-05-21",
+   "train_code": true,
+   "papers": [
+    "2506.07900",
+    "2602.09003",
+    "2512.16649",
+    "2604.13016"
+   ]
+  },
+  {
+   "id": "zai-org/GLM-Image",
+   "publisher": "zai-org",
+   "model": "GLM-Image",
+   "type": "text-to-image",
+   "params": 6926882880,
+   "likes": 1114,
+   "downloads_30d": 4248,
+   "created": "2026-01-08",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-OCR-2",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-OCR-2",
+   "type": "image-text-to-text",
+   "params": 3389119360,
+   "likes": 1112,
+   "downloads_30d": 705001,
+   "created": "2026-01-27",
+   "train_code": false,
+   "papers": [
+    "2601.20552",
+    "2510.18234"
+   ]
+  },
+  {
+   "id": "m-a-p/YuE2-3B",
+   "publisher": "m-a-p",
+   "model": "YuE2-3B",
+   "type": "text-to-audio",
+   "params": 3630684224,
+   "likes": 1112,
+   "downloads_30d": 36976,
+   "created": "2026-09-09",
+   "train_code": false,
+   "papers": [
+    "2610.05336",
+    "2609.33757",
+    "2503.08638"
+   ]
+  },
+  {
+   "id": "larryvrh/MiniMax-H3-Turbo-Lora",
+   "publisher": "larryvrh",
+   "model": "MiniMax-H3-Turbo-Lora",
+   "type": "text-to-video",
+   "params": null,
+   "likes": 1090,
+   "downloads_30d": 208147,
+   "created": "2026-08-05",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3.5-27B",
+   "publisher": "Qwen",
+   "model": "Qwen3.5-27B",
+   "type": "image-text-to-text",
+   "params": 27781427952,
+   "likes": 1060,
+   "downloads_30d": 1868681,
+   "created": "2026-02-24",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "bytedance-research/Lance",
+   "publisher": "bytedance-research",
+   "model": "Lance",
+   "type": "any-to-any",
+   "params": null,
+   "likes": 1060,
+   "downloads_30d": 1125,
+   "created": "2026-05-15",
+   "train_code": false,
+   "papers": [
+    "2605.18678"
+   ]
+  },
+  {
+   "id": "lightx2v/Minimax-h3-Turbo",
+   "publisher": "lightx2v",
+   "model": "Minimax-h3-Turbo",
+   "type": "image-to-video",
+   "params": null,
+   "likes": 1058,
+   "downloads_30d": 1499835,
+   "created": "2026-08-07",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "ornith-ai/Ornith-1.0-35B-GGUF",
+   "publisher": "ornith-ai",
+   "model": "Ornith-1.0-35B-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 1055,
+   "downloads_30d": 1600849,
+   "created": "2026-06-25",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Comfy-Org/Qwen-Image-2.1",
+   "publisher": "Comfy-Org",
+   "model": "Qwen-Image-2.1",
+   "type": null,
+   "params": null,
+   "likes": 1049,
+   "downloads_30d": 8224717,
+   "created": "2026-09-15",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "tencent/HunyuanVideo-1.5",
+   "publisher": "tencent",
+   "model": "HunyuanVideo-1.5",
+   "type": "text-to-video",
+   "params": null,
+   "likes": 1046,
+   "downloads_30d": 1300,
+   "created": "2025-11-18",
+   "train_code": true,
+   "papers": [
+    "2511.18870"
+   ]
+  },
+  {
+   "id": "poolside/Laguna-S-2.1",
+   "publisher": "poolside",
+   "model": "Laguna-S-2.1",
+   "type": "text-generation",
+   "params": 117561977600,
+   "likes": 1044,
+   "downloads_30d": 234470,
+   "created": "2026-07-13",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3.5-4B",
+   "publisher": "Qwen",
+   "model": "Qwen3.5-4B",
+   "type": "image-text-to-text",
+   "params": 4659865088,
+   "likes": 1042,
+   "downloads_30d": 7877547,
+   "created": "2026-02-27",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/gemma-4-E2B-it",
+   "publisher": "google",
+   "model": "gemma-4-E2B-it",
+   "type": "any-to-any",
+   "params": 5123178051,
+   "likes": 1024,
+   "downloads_30d": 3055250,
+   "created": "2026-03-02",
+   "train_code": false,
+   "papers": [
+    "2607.02770"
+   ]
+  },
+  {
+   "id": "TokenRhythm/NeoHorse-1-9B",
+   "publisher": "TokenRhythm",
+   "model": "NeoHorse-1-9B",
+   "type": "text-generation",
+   "params": 8953803264,
+   "likes": 1023,
+   "downloads_30d": 8980,
+   "created": "2026-09-05",
+   "train_code": false,
+   "papers": [
+    "2609.08183"
+   ]
+  },
+  {
+   "id": "black-forest-labs/FLUX.2-klein-4B",
+   "publisher": "black-forest-labs",
+   "model": "FLUX.2-klein-4B",
+   "type": "image-to-image",
+   "params": 3875544576,
+   "likes": 1016,
+   "downloads_30d": 408875,
+   "created": "2026-01-14",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "krea/Krea-2-Raw",
+   "publisher": "krea",
+   "model": "Krea-2-Raw",
+   "type": "text-to-image",
+   "params": 12820073036,
+   "likes": 1015,
+   "downloads_30d": 84409,
+   "created": "2026-06-18",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+   "publisher": "DavidAU",
+   "model": "Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 1014,
+   "downloads_30d": 2041262,
+   "created": "2026-07-19",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+   "publisher": "mistralai",
+   "model": "Voxtral-Mini-4B-Realtime-2602",
+   "type": "automatic-speech-recognition",
+   "params": 4429679360,
+   "likes": 1006,
+   "downloads_30d": 1943630,
+   "created": "2026-01-21",
+   "train_code": false,
+   "papers": [
+    "2602.11298"
+   ]
+  },
+  {
+   "id": "facebook/sam3.1",
+   "publisher": "facebook",
+   "model": "sam3.1",
+   "type": "mask-generation",
+   "params": null,
+   "likes": 1005,
+   "downloads_30d": 54650,
+   "created": "2026-03-26",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Jiunsong/supergemma4-26b-uncensored-gguf-v2",
+   "publisher": "Jiunsong",
+   "model": "supergemma4-26b-uncensored-gguf-v2",
+   "type": "text-generation",
+   "params": null,
+   "likes": 998,
+   "downloads_30d": 47501,
+   "created": "2026-04-11",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/medgemma-1.5-4b-it",
+   "publisher": "google",
+   "model": "medgemma-1.5-4b-it",
+   "type": "image-text-to-text",
+   "params": 4300079472,
+   "likes": 994,
+   "downloads_30d": 164294,
+   "created": "2026-01-07",
+   "train_code": false,
+   "papers": [
+    "2303.15343",
+    "2604.05081",
+    "2406.19578",
+    "2405.03162",
+    "2106.14463",
+    "2009.13081",
+    "2203.14371",
+    "1909.06146",
+    "2102.09542",
+    "2411.15640",
+    "2404.05590",
+    "2501.18362",
+    "1605.01397",
+    "1901.07031",
+    "2403.17834",
+    "2402.16040"
+   ]
+  },
+  {
+   "id": "jialinyyzz/humanizer",
+   "publisher": "jialinyyzz",
+   "model": "humanizer",
+   "type": "text-generation",
+   "params": 11959730224,
+   "likes": 989,
+   "downloads_30d": 33664,
+   "created": "2026-09-11",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "dx8152/Qwen-Edit-2509-Multiple-angles",
+   "publisher": "dx8152",
+   "model": "Qwen-Edit-2509-Multiple-angles",
+   "type": "image-to-image",
+   "params": null,
+   "likes": 988,
+   "downloads_30d": 112592,
+   "created": "2025-10-31",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Supertone/supertonic-3",
+   "publisher": "Supertone",
+   "model": "supertonic-3",
+   "type": "text-to-speech",
+   "params": null,
+   "likes": 985,
+   "downloads_30d": 31670,
+   "created": "2026-05-06",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "unsloth/Qwen3.6-35B-A3B-MTP-GGUF",
+   "publisher": "unsloth",
+   "model": "Qwen3.6-35B-A3B-MTP-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 981,
+   "downloads_30d": 1007763,
+   "created": "2026-05-11",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "unsloth/Qwen3.5-9B-GGUF",
+   "publisher": "unsloth",
+   "model": "Qwen3.5-9B-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 978,
+   "downloads_30d": 1190523,
+   "created": "2026-02-28",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "tencent/Hy3",
+   "publisher": "tencent",
+   "model": "Hy3",
+   "type": "text-generation",
+   "params": 298786155776,
+   "likes": 975,
+   "downloads_30d": 465571,
+   "created": "2026-07-02",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen-Image-2512",
+   "publisher": "Qwen",
+   "model": "Qwen-Image-2512",
+   "type": "text-to-image",
+   "params": 20430401088,
+   "likes": 974,
+   "downloads_30d": 44212,
+   "created": "2025-12-30",
+   "train_code": false,
+   "papers": [
+    "2508.02324"
+   ]
+  },
+  {
+   "id": "netflix/void-model",
+   "publisher": "netflix",
+   "model": "void-model",
+   "type": "video-to-video",
+   "params": null,
+   "likes": 970,
+   "downloads_30d": 0,
+   "created": "2026-03-30",
+   "train_code": true,
+   "papers": [
+    "2604.02296"
+   ]
+  },
+  {
+   "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+   "publisher": "empero-ai",
+   "model": "Qwythos-9B-Claude-Mythos-5-1M",
+   "type": "text-generation",
+   "params": 9409813744,
+   "likes": 969,
+   "downloads_30d": 6439,
+   "created": "2026-06-19",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "unsloth/Qwen3.6-27B-GGUF",
+   "publisher": "unsloth",
+   "model": "Qwen3.6-27B-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 963,
+   "downloads_30d": 604278,
+   "created": "2026-04-22",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Comfy-Org/z_image_turbo",
+   "publisher": "Comfy-Org",
+   "model": "z_image_turbo",
+   "type": null,
+   "params": null,
+   "likes": 939,
+   "downloads_30d": 8709479,
+   "created": "2025-11-26",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/timesfm-3.0-pytorch",
+   "publisher": "google",
+   "model": "timesfm-3.0-pytorch",
+   "type": "time-series-forecasting",
+   "params": 330710976,
+   "likes": 938,
+   "downloads_30d": 1159467,
+   "created": "2026-08-24",
+   "train_code": false,
+   "papers": [
+    "2310.10688"
+   ]
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-V4-Flash-Vision-Exp",
+   "type": "image-text-to-text",
+   "params": 304646824126,
+   "likes": 934,
+   "downloads_30d": 677788,
+   "created": "2026-08-31",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "mistralai/Voxtral-4B-TTS-2603",
+   "publisher": "mistralai",
+   "model": "Voxtral-4B-TTS-2603",
+   "type": "text-to-speech",
+   "params": null,
+   "likes": 923,
+   "downloads_30d": 1517,
+   "created": "2025-11-17",
+   "train_code": false,
+   "papers": [
+    "2603.25551"
+   ]
+  },
+  {
+   "id": "tencent/HY-Embodied-0.5",
+   "publisher": "tencent",
+   "model": "HY-Embodied-0.5",
+   "type": "image-text-to-text",
+   "params": 3785086960,
+   "likes": 913,
+   "downloads_30d": 347,
+   "created": "2026-04-02",
+   "train_code": false,
+   "papers": [
+    "2604.07430"
+   ]
+  },
+  {
+   "id": "prism-ml/Bonsai-27B-gguf",
+   "publisher": "prism-ml",
+   "model": "Bonsai-27B-gguf",
+   "type": "text-generation",
+   "params": null,
+   "likes": 901,
+   "downloads_30d": 402812,
+   "created": "2026-07-04",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "maya-research/maya1",
+   "publisher": "maya-research",
+   "model": "maya1",
+   "type": "text-to-speech",
+   "params": 3300928512,
+   "likes": 900,
+   "downloads_30d": 6492,
+   "created": "2025-10-18",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3.8-27B-FP8",
+   "publisher": "Qwen",
+   "model": "Qwen3.8-27B-FP8",
+   "type": "image-text-to-text",
+   "params": 27781427952,
+   "likes": 898,
+   "downloads_30d": 4465358,
+   "created": "2026-08-13",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "ACE-Step/Ace-Step1.5",
+   "publisher": "ACE-Step",
+   "model": "Ace-Step1.5",
+   "type": "text-to-audio",
+   "params": null,
+   "likes": 894,
+   "downloads_30d": 70294,
+   "created": "2026-01-23",
+   "train_code": false,
+   "papers": [
+    "2602.00744"
+   ]
+  },
+  {
+   "id": "unsloth/gemma-4-12b-it-GGUF",
+   "publisher": "unsloth",
+   "model": "gemma-4-12b-it-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 887,
+   "downloads_30d": 1660049,
+   "created": "2026-05-29",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Aleph-Alpha/Kolibri-1",
+   "publisher": "Aleph-Alpha",
+   "model": "Kolibri-1",
+   "type": "text-generation",
+   "params": 78103074560,
+   "likes": 876,
+   "downloads_30d": 10496,
+   "created": "2026-10-02",
+   "train_code": false,
+   "papers": [
+    "2512.11614",
+    "2601.17858"
+   ]
+  },
+  {
+   "id": "unsloth/Qwen3-Coder-Next-GGUF",
+   "publisher": "unsloth",
+   "model": "Qwen3-Coder-Next-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 874,
+   "downloads_30d": 141738,
+   "created": "2026-02-03",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "RuneXX/LTX-2.3-Workflows",
+   "publisher": "RuneXX",
+   "model": "LTX-2.3-Workflows",
+   "type": "image-to-video",
+   "params": null,
+   "likes": 871,
+   "downloads_30d": 0,
+   "created": "2026-03-05",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/translategemma-4b-it",
+   "publisher": "google",
+   "model": "translategemma-4b-it",
+   "type": "image-text-to-text",
+   "params": 4971331952,
+   "likes": 867,
+   "downloads_30d": 31457,
+   "created": "2026-01-12",
+   "train_code": false,
+   "papers": [
+    "2601.09012",
+    "2503.19786"
+   ]
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-V4-Pro-0813",
+   "type": "text-generation",
+   "params": 1650497936906,
+   "likes": 867,
+   "downloads_30d": 87569,
+   "created": "2026-08-13",
+   "train_code": false,
+   "papers": [
+    "2606.19348"
+   ]
+  },
+  {
+   "id": "unsloth/Qwen3.5-35B-A3B-GGUF",
+   "publisher": "unsloth",
+   "model": "Qwen3.5-35B-A3B-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 866,
+   "downloads_30d": 913389,
+   "created": "2026-02-24",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "nex-agi/Nex-N2.5-mini",
+   "publisher": "nex-agi",
+   "model": "Nex-N2.5-mini",
+   "type": "text-generation",
+   "params": 35107181936,
+   "likes": 860,
+   "downloads_30d": 7109,
+   "created": "2026-09-08",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "meituan-longcat/LongCat-Video-Avatar-1.5",
+   "publisher": "meituan-longcat",
+   "model": "LongCat-Video-Avatar-1.5",
+   "type": null,
+   "params": null,
+   "likes": 853,
+   "downloads_30d": 2503,
+   "created": "2026-05-21",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "WeiboAI/VibeThinker-3B",
+   "publisher": "WeiboAI",
+   "model": "VibeThinker-3B",
+   "type": "text-generation",
+   "params": 3085938688,
+   "likes": 849,
+   "downloads_30d": 3851,
+   "created": "2026-06-12",
+   "train_code": false,
+   "papers": [
+    "2606.16140"
+   ]
+  },
+  {
+   "id": "Altworld/Hemmingway-1",
+   "publisher": "Altworld",
+   "model": "Hemmingway-1",
+   "type": "text-generation",
+   "params": 26895998464,
+   "likes": 848,
+   "downloads_30d": 11298,
+   "created": "2026-09-20",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "ideogram-ai/ideogram-4-fp8",
+   "publisher": "ideogram-ai",
+   "model": "ideogram-4-fp8",
+   "type": "text-to-image",
+   "params": 9281557760,
+   "likes": 841,
+   "downloads_30d": 54321,
+   "created": "2026-05-30",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "stepfun-ai/Step-3.5-Flash",
+   "publisher": "stepfun-ai",
+   "model": "Step-3.5-Flash",
+   "type": "text-generation",
+   "params": 199384301376,
+   "likes": 838,
+   "downloads_30d": 248034,
+   "created": "2026-02-01",
+   "train_code": false,
+   "papers": [
+    "2602.10604",
+    "2601.05593",
+    "2507.19427"
+   ]
+  },
+  {
+   "id": "lightonai/LightOnOCR-2-1B",
+   "publisher": "lightonai",
+   "model": "LightOnOCR-2-1B",
+   "type": "image-text-to-text",
+   "params": 1005647872,
+   "likes": 836,
+   "downloads_30d": 320098,
+   "created": "2026-01-16",
+   "train_code": false,
+   "papers": [
+    "2601.14251",
+    "2412.13663"
+   ]
+  },
+  {
+   "id": "tencent/HunyuanOCR",
+   "publisher": "tencent",
+   "model": "HunyuanOCR",
+   "type": "image-text-to-text",
+   "params": 1119925744,
+   "likes": 827,
+   "downloads_30d": 932341,
+   "created": "2025-11-18",
+   "train_code": true,
+   "papers": [
+    "2607.04884"
+   ]
+  },
+  {
+   "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+   "publisher": "nvidia",
+   "model": "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+   "type": "text-generation",
+   "params": 31577937344,
+   "likes": 826,
+   "downloads_30d": 939706,
+   "created": "2025-12-04",
+   "train_code": false,
+   "papers": [
+    "2512.20848",
+    "2512.20856"
+   ]
+  },
+  {
+   "id": "sapientinc/HRM-Text-1B",
+   "publisher": "sapientinc",
+   "model": "HRM-Text-1B",
+   "type": "text-generation",
+   "params": 1182795264,
+   "likes": 823,
+   "downloads_30d": 16801,
+   "created": "2026-05-17",
+   "train_code": false,
+   "papers": [
+    "2605.20613"
+   ]
+  },
+  {
+   "id": "conradlocke/krea2-identity-edit",
+   "publisher": "conradlocke",
+   "model": "krea2-identity-edit",
+   "type": null,
+   "params": null,
+   "likes": 818,
+   "downloads_30d": 0,
+   "created": "2026-07-07",
+   "train_code": true,
+   "papers": []
+  },
+  {
+   "id": "Nanbeige/Nanbeige4.2-3B",
+   "publisher": "Nanbeige",
+   "model": "Nanbeige4.2-3B",
+   "type": "text-generation",
+   "params": 4169800704,
+   "likes": 817,
+   "downloads_30d": 102725,
+   "created": "2026-07-21",
+   "train_code": false,
+   "papers": [
+    "2607.22083"
+   ]
+  },
+  {
+   "id": "OBLITERATUS/gemma-4-E4B-it-OBLITERATED",
+   "publisher": "OBLITERATUS",
+   "model": "gemma-4-E4B-it-OBLITERATED",
+   "type": "text-generation",
+   "params": 7996156448,
+   "likes": 807,
+   "downloads_30d": 36402,
+   "created": "2026-04-15",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "LiquidAI/LFM2.5-2.6B",
+   "publisher": "LiquidAI",
+   "model": "LFM2.5-2.6B",
+   "type": "text-generation",
+   "params": 2697198592,
+   "likes": 807,
+   "downloads_30d": 118821,
+   "created": "2026-07-28",
+   "train_code": true,
+   "papers": [
+    "2511.23404"
+   ]
+  },
+  {
+   "id": "bosonai/higgs-tts-3-4b",
+   "publisher": "bosonai",
+   "model": "higgs-tts-3-4b",
+   "type": "text-to-speech",
+   "params": 4654850537,
+   "likes": 801,
+   "downloads_30d": 105374,
+   "created": "2026-06-04",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "prism-ml/Bonsai-8B-gguf",
+   "publisher": "prism-ml",
+   "model": "Bonsai-8B-gguf",
+   "type": "text-generation",
+   "params": null,
+   "likes": 791,
+   "downloads_30d": 116476,
+   "created": "2026-03-18",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "LiquidAI/LFM2.5-8B-A1B",
+   "publisher": "LiquidAI",
+   "model": "LFM2.5-8B-A1B",
+   "type": "text-generation",
+   "params": 8467856832,
+   "likes": 786,
+   "downloads_30d": 26022,
+   "created": "2026-05-28",
+   "train_code": true,
+   "papers": [
+    "2511.23404",
+    "2607.15232"
+   ]
+  },
+  {
+   "id": "TenStrip/10Eros-Max",
+   "publisher": "TenStrip",
+   "model": "10Eros-Max",
+   "type": "image-text-to-video",
+   "params": null,
+   "likes": 785,
+   "downloads_30d": 0,
+   "created": "2026-08-04",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+   "publisher": "ISTA-DASLab",
+   "model": "Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 783,
+   "downloads_30d": 3922328,
+   "created": "2026-09-07",
+   "train_code": false,
+   "papers": [
+    "2604.18556",
+    "2605.00649"
+   ]
+  },
+  {
+   "id": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
+   "publisher": "unsloth",
+   "model": "DeepSeek-V4-Flash-0731-GGUF",
+   "type": null,
+   "params": null,
+   "likes": 780,
+   "downloads_30d": 123702,
+   "created": "2026-07-31",
+   "train_code": false,
+   "papers": [
+    "2606.19348"
+   ]
+  },
+  {
+   "id": "google/gemma-4-12B",
+   "publisher": "google",
+   "model": "gemma-4-12B",
+   "type": "any-to-any",
+   "params": 11959730224,
+   "likes": 775,
+   "downloads_30d": 101728,
+   "created": "2026-05-23",
+   "train_code": false,
+   "papers": [
+    "2607.02770"
+   ]
+  },
+  {
+   "id": "DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
+   "publisher": "DavidAU",
+   "model": "Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 770,
+   "downloads_30d": 220063,
+   "created": "2026-05-01",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "XiaomiMiMo/MiMo-V2.5-Pro",
+   "publisher": "XiaomiMiMo",
+   "model": "MiMo-V2.5-Pro",
+   "type": "text-generation",
+   "params": 1023182841600,
+   "likes": 763,
+   "downloads_30d": 21240,
+   "created": "2026-04-27",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Contrastive-LM/CLM-v0.1-8B",
+   "publisher": "Contrastive-LM",
+   "model": "CLM-v0.1-8B",
+   "type": "text-ranking",
+   "params": null,
+   "likes": 760,
+   "downloads_30d": 4312,
+   "created": "2026-09-21",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "black-forest-labs/FLUX.2-klein-9b-fp8",
+   "publisher": "black-forest-labs",
+   "model": "FLUX.2-klein-9b-fp8",
+   "type": "image-to-image",
+   "params": null,
+   "likes": 758,
+   "downloads_30d": 50379,
+   "created": "2026-01-14",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "salakash/SamKash-Tolstoy",
+   "publisher": "salakash",
+   "model": "SamKash-Tolstoy",
+   "type": "text-generation",
+   "params": null,
+   "likes": 757,
+   "downloads_30d": 24,
+   "created": "2025-10-31",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "upstage/Solar-Open2-250B",
+   "publisher": "upstage",
+   "model": "Solar-Open2-250B",
+   "type": "text-generation",
+   "params": 250287810304,
+   "likes": 756,
+   "downloads_30d": 5339,
+   "created": "2026-07-22",
+   "train_code": false,
+   "papers": [
+    "2607.20062"
+   ]
+  },
+  {
+   "id": "XiaomiMiMo/MiMo-V2-Flash",
+   "publisher": "XiaomiMiMo",
+   "model": "MiMo-V2-Flash",
+   "type": "text-generation",
+   "params": 309785318400,
+   "likes": 755,
+   "downloads_30d": 88014,
+   "created": "2025-12-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "WarmBloodAban/Minimax-h3_Singularity",
+   "publisher": "WarmBloodAban",
+   "model": "Minimax-h3_Singularity",
+   "type": "image-to-video",
+   "params": null,
+   "likes": 755,
+   "downloads_30d": 587569,
+   "created": "2026-09-05",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3.5-0.8B",
+   "publisher": "Qwen",
+   "model": "Qwen3.5-0.8B",
+   "type": "image-text-to-text",
+   "params": 873438784,
+   "likes": 754,
+   "downloads_30d": 2580102,
+   "created": "2026-02-28",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "nvidia/Nemotron-3-Diarization",
+   "publisher": "nvidia",
+   "model": "Nemotron-3-Diarization",
+   "type": "voice-activity-detection",
+   "params": 99226504,
+   "likes": 752,
+   "downloads_30d": 72286,
+   "created": "2026-09-01",
+   "train_code": true,
+   "papers": [
+    "2409.06656",
+    "2507.18446",
+    "2605.15442",
+    "2507.09226",
+    "2408.13106"
+   ]
+  },
+  {
+   "id": "Cloudflare/clef-flash",
+   "publisher": "Cloudflare",
+   "model": "clef-flash",
+   "type": "image-text-to-text",
+   "params": 9409813744,
+   "likes": 745,
+   "downloads_30d": 20670,
+   "created": "2026-09-30",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF",
+   "publisher": "orcarouter",
+   "model": "Qwen3.8-Flash-Next-Uncensored-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 741,
+   "downloads_30d": 520450,
+   "created": "2026-08-26",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+   "publisher": "HauhauCS",
+   "model": "Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 736,
+   "downloads_30d": 49009,
+   "created": "2026-04-22",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen-AgentWorld-35B-A3B",
+   "publisher": "Qwen",
+   "model": "Qwen-AgentWorld-35B-A3B",
+   "type": "text-generation",
+   "params": 34660610688,
+   "likes": 733,
+   "downloads_30d": 6900,
+   "created": "2026-06-22",
+   "train_code": false,
+   "papers": [
+    "2606.24597"
+   ]
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V3.2-Speciale",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-V3.2-Speciale",
+   "type": "text-generation",
+   "params": 685396921376,
+   "likes": 726,
+   "downloads_30d": 3073,
+   "created": "2025-11-28",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "unsloth/GLM-4.7-Flash-GGUF",
+   "publisher": "unsloth",
+   "model": "GLM-4.7-Flash-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 725,
+   "downloads_30d": 168046,
+   "created": "2026-01-20",
+   "train_code": false,
+   "papers": [
+    "2508.06471"
+   ]
+  },
+  {
+   "id": "facebook/tribev2",
+   "publisher": "facebook",
+   "model": "tribev2",
+   "type": null,
+   "params": null,
+   "likes": 724,
+   "downloads_30d": 17526,
+   "created": "2026-03-24",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "ponpoke/flux2-klein-9b-uncensored-text-encoder",
+   "publisher": "ponpoke",
+   "model": "flux2-klein-9b-uncensored-text-encoder",
+   "type": "text-to-image",
+   "params": 8190735360,
+   "likes": 724,
+   "downloads_30d": 29906,
+   "created": "2026-04-30",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "ornith-ai/Ornith-1.5-35B-A3B",
+   "publisher": "ornith-ai",
+   "model": "Ornith-1.5-35B-A3B",
+   "type": "text-generation",
+   "params": 35951822704,
+   "likes": 716,
+   "downloads_30d": 260353,
+   "created": "2026-08-18",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "tencent/HY-World-2.0",
+   "publisher": "tencent",
+   "model": "HY-World-2.0",
+   "type": "image-to-3d",
+   "params": null,
+   "likes": 713,
+   "downloads_30d": 3358,
+   "created": "2026-04-10",
+   "train_code": false,
+   "papers": [
+    "2604.14268"
+   ]
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-Math-V2",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-Math-V2",
+   "type": "text-generation",
+   "params": 685396921376,
+   "likes": 708,
+   "downloads_30d": 628,
+   "created": "2025-11-27",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+   "publisher": "bottlecapai",
+   "model": "ThinkingCap-Qwen3.6-27B",
+   "type": "image-text-to-text",
+   "params": 27356728560,
+   "likes": 706,
+   "downloads_30d": 371,
+   "created": "2026-07-06",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
+   "publisher": "Viggle",
+   "model": "Qwen-Image-2.1-viggle-turbo",
+   "type": "text-to-image",
+   "params": 7115124736,
+   "likes": 706,
+   "downloads_30d": 442620,
+   "created": "2026-09-22",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
+   "publisher": "ethanfel",
+   "model": "Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 702,
+   "downloads_30d": 0,
+   "created": "2026-08-03",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "ResembleAI/chatterbox-turbo",
+   "publisher": "ResembleAI",
+   "model": "chatterbox-turbo",
+   "type": "text-to-speech",
+   "params": null,
+   "likes": 696,
+   "downloads_30d": 0,
+   "created": "2025-12-02",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+   "publisher": "XiaomiMiMo",
+   "model": "MiMo-V2.6-Pro-RL",
+   "type": "text-generation",
+   "params": 1024216603392,
+   "likes": 694,
+   "downloads_30d": 95178,
+   "created": "2026-09-21",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+   "publisher": "Venastine-Research",
+   "model": "Xing4.0-29B-A4B-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 687,
+   "downloads_30d": 45199,
+   "created": "2026-09-17",
+   "train_code": false,
+   "papers": [
+    "2512.24157",
+    "2507.18013"
+   ]
+  },
+  {
+   "id": "Tesslate/OmniCoder-9B",
+   "publisher": "Tesslate",
+   "model": "OmniCoder-9B",
+   "type": "text-generation",
+   "params": 9409813744,
+   "likes": 686,
+   "downloads_30d": 915,
+   "created": "2026-03-12",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
+   "publisher": "LuffyTheFox",
+   "model": "Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 686,
+   "downloads_30d": 582253,
+   "created": "2026-07-13",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "openbmb/MiniCPM-SALA",
+   "publisher": "openbmb",
+   "model": "MiniCPM-SALA",
+   "type": "text-generation",
+   "params": 9477203968,
+   "likes": 685,
+   "downloads_30d": 3588,
+   "created": "2026-02-11",
+   "train_code": false,
+   "papers": [
+    "2509.24663",
+    "2601.22156"
+   ]
+  },
+  {
+   "id": "BreezeBlue/Breeze-TTS-2",
+   "publisher": "BreezeBlue",
+   "model": "Breeze-TTS-2",
+   "type": "text-to-speech",
+   "params": 3466363713,
+   "likes": 684,
+   "downloads_30d": 11838,
+   "created": "2026-08-25",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+   "publisher": "Jackrong",
+   "model": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 681,
+   "downloads_30d": 27569,
+   "created": "2026-02-27",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "baidu/ERNIE-Image",
+   "publisher": "baidu",
+   "model": "ERNIE-Image",
+   "type": "text-to-image",
+   "params": 8033490048,
+   "likes": 678,
+   "downloads_30d": 1339,
+   "created": "2026-04-07",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "mistralai/Devstral-Small-2-24B-Instruct-2512",
+   "publisher": "mistralai",
+   "model": "Devstral-Small-2-24B-Instruct-2512",
+   "type": null,
+   "params": 24011361840,
+   "likes": 676,
+   "downloads_30d": 318657,
+   "created": "2025-11-28",
+   "train_code": false,
+   "papers": [
+    "2501.19399"
+   ]
+  },
+  {
+   "id": "LiquidAI/LFM2.5-1.2B-Instruct",
+   "publisher": "LiquidAI",
+   "model": "LFM2.5-1.2B-Instruct",
+   "type": "text-generation",
+   "params": 1170340608,
+   "likes": 676,
+   "downloads_30d": 114737,
+   "created": "2026-01-06",
+   "train_code": true,
+   "papers": [
+    "2511.23404"
+   ]
+  },
+  {
+   "id": "ornith-ai/Ornith-1.0-9B-GGUF",
+   "publisher": "ornith-ai",
+   "model": "Ornith-1.0-9B-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 676,
+   "downloads_30d": 2458392,
+   "created": "2026-06-25",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "nex-agi/Nex-N2.5-Pro",
+   "publisher": "nex-agi",
+   "model": "Nex-N2.5-Pro",
+   "type": "text-generation",
+   "params": 396802360816,
+   "likes": 676,
+   "downloads_30d": 33394,
+   "created": "2026-09-08",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "PaddlePaddle/PaddleOCR-VL-1.5",
+   "publisher": "PaddlePaddle",
+   "model": "PaddleOCR-VL-1.5",
+   "type": "image-text-to-text",
+   "params": 958588736,
+   "likes": 666,
+   "downloads_30d": 18590,
+   "created": "2026-01-28",
+   "train_code": false,
+   "papers": [
+    "2601.21957"
+   ]
+  },
+  {
+   "id": "Comfy-Org/Krea-2",
+   "publisher": "Comfy-Org",
+   "model": "Krea-2",
+   "type": null,
+   "params": null,
+   "likes": 662,
+   "downloads_30d": 6600690,
+   "created": "2026-06-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
+   "publisher": "Kwaipilot",
+   "model": "KAT-Coder-V2.5-Dev",
+   "type": "text-generation",
+   "params": 34660610688,
+   "likes": 662,
+   "downloads_30d": 9854,
+   "created": "2026-07-23",
+   "train_code": false,
+   "papers": [
+    "2607.05471"
+   ]
+  },
+  {
+   "id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+   "publisher": "FunAudioLLM",
+   "model": "Fun-CosyVoice3-0.5B-2512",
+   "type": "text-to-speech",
+   "params": null,
+   "likes": 658,
+   "downloads_30d": 173596,
+   "created": "2025-12-11",
+   "train_code": false,
+   "papers": [
+    "2505.17589",
+    "2412.10117",
+    "2407.05407"
+   ]
+  },
+  {
+   "id": "dealignai/GLM-5.3-CYBERSECURITY-FP8",
+   "publisher": "dealignai",
+   "model": "GLM-5.3-CYBERSECURITY-FP8",
+   "type": "text-generation",
+   "params": 753329940480,
+   "likes": 655,
+   "downloads_30d": 96188,
+   "created": "2026-08-30",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+   "publisher": "0bserverx",
+   "model": "Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 651,
+   "downloads_30d": 1209335,
+   "created": "2026-08-14",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "unsloth/GLM-5.2-GGUF",
+   "publisher": "unsloth",
+   "model": "GLM-5.2-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 648,
+   "downloads_30d": 295529,
+   "created": "2026-06-17",
+   "train_code": false,
+   "papers": [
+    "2602.15763",
+    "2603.12201"
+   ]
+  },
+  {
+   "id": "InternScience/Agents-A1",
+   "publisher": "InternScience",
+   "model": "Agents-A1",
+   "type": "text-generation",
+   "params": 35107181936,
+   "likes": 648,
+   "downloads_30d": 2813,
+   "created": "2026-06-22",
+   "train_code": false,
+   "papers": [
+    "2606.30616"
+   ]
+  },
+  {
+   "id": "unsloth/gemma-4-E4B-it-GGUF",
+   "publisher": "unsloth",
+   "model": "gemma-4-E4B-it-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 645,
+   "downloads_30d": 592091,
+   "created": "2026-04-01",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "AlexWortega/openjev",
+   "publisher": "AlexWortega",
+   "model": "openjev",
+   "type": "text-classification",
+   "params": null,
+   "likes": 645,
+   "downloads_30d": 0,
+   "created": "2026-09-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+   "publisher": "nvidia",
+   "model": "Qwen3.6-35B-A3B-NVFP4",
+   "type": "text-generation",
+   "params": 18683860336,
+   "likes": 644,
+   "downloads_30d": 4946611,
+   "created": "2026-05-27",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "kpsss34/FHDR_Uncensored",
+   "publisher": "kpsss34",
+   "model": "FHDR_Uncensored",
+   "type": "text-to-image",
+   "params": 11901408320,
+   "likes": 639,
+   "downloads_30d": 1866,
+   "created": "2025-10-26",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "lkzd7/WAN2.2_LoraSet_NSFW",
+   "publisher": "lkzd7",
+   "model": "WAN2.2_LoraSet_NSFW",
+   "type": null,
+   "params": null,
+   "likes": 636,
+   "downloads_30d": 0,
+   "created": "2025-12-04",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+   "publisher": "XiaomiMiMo",
+   "model": "MiMo-V2.6-Distill-Qwen-9B",
+   "type": "image-text-to-text",
+   "params": 9409813744,
+   "likes": 636,
+   "downloads_30d": 22353,
+   "created": "2026-09-21",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "nvidia/nemotron-speech-streaming-en-0.6b",
+   "publisher": "nvidia",
+   "model": "nemotron-speech-streaming-en-0.6b",
+   "type": "automatic-speech-recognition",
+   "params": 618084865,
+   "likes": 635,
+   "downloads_30d": 275146,
+   "created": "2025-12-17",
+   "train_code": false,
+   "papers": [
+    "2312.17279",
+    "2305.05084"
+   ]
+  },
+  {
+   "id": "unsloth/Qwen-Image-Edit-2511-GGUF",
+   "publisher": "unsloth",
+   "model": "Qwen-Image-Edit-2511-GGUF",
+   "type": "image-to-image",
+   "params": null,
+   "likes": 634,
+   "downloads_30d": 499441,
+   "created": "2025-12-20",
+   "train_code": false,
+   "papers": [
+    "2508.02324"
+   ]
+  },
+  {
+   "id": "unsloth/gemma-4-31B-it-GGUF",
+   "publisher": "unsloth",
+   "model": "gemma-4-31B-it-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 631,
+   "downloads_30d": 274185,
+   "created": "2026-04-01",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3.5-122B-A10B",
+   "publisher": "Qwen",
+   "model": "Qwen3.5-122B-A10B",
+   "type": "image-text-to-text",
+   "params": 125086497008,
+   "likes": 629,
+   "downloads_30d": 594205,
+   "created": "2026-02-24",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "zai-org/GLM-4.6V-Flash",
+   "publisher": "zai-org",
+   "model": "GLM-4.6V-Flash",
+   "type": "image-text-to-text",
+   "params": 10292777472,
+   "likes": 628,
+   "downloads_30d": 105527,
+   "created": "2025-12-07",
+   "train_code": false,
+   "papers": [
+    "2507.01006"
+   ]
+  },
+  {
+   "id": "ukisai/Swift-Qwen3.8-27b",
+   "publisher": "ukisai",
+   "model": "Swift-Qwen3.8-27b",
+   "type": "image-text-to-text",
+   "params": 27781427952,
+   "likes": 625,
+   "downloads_30d": 23231,
+   "created": "2026-09-08",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Kijai/LTX2.3_comfy",
+   "publisher": "Kijai",
+   "model": "LTX2.3_comfy",
+   "type": null,
+   "params": null,
+   "likes": 623,
+   "downloads_30d": 475767,
+   "created": "2026-03-05",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "microsoft/Fara-7B",
+   "publisher": "microsoft",
+   "model": "Fara-7B",
+   "type": "image-text-to-text",
+   "params": 8292166656,
+   "likes": 621,
+   "downloads_30d": 2934,
+   "created": "2025-10-30",
+   "train_code": false,
+   "papers": [
+    "2511.19663"
+   ]
+  },
+  {
+   "id": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+   "publisher": "Jackrong",
+   "model": "Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 620,
+   "downloads_30d": 16042,
+   "created": "2026-03-19",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
+   "publisher": "HauhauCS",
+   "model": "Qwen3.5-4B-Uncensored-HauhauCS-Aggressive",
+   "type": null,
+   "params": null,
+   "likes": 614,
+   "downloads_30d": 204351,
+   "created": "2026-03-03",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+   "publisher": "moonshotai",
+   "model": "Kimi-Linear-48B-A3B-Instruct",
+   "type": "text-generation",
+   "params": 49122681728,
+   "likes": 608,
+   "downloads_30d": 213207,
+   "created": "2025-10-30",
+   "train_code": false,
+   "papers": [
+    "2510.26692",
+    "2412.06464"
+   ]
+  },
+  {
+   "id": "NemoStation/Marlin-2B",
+   "publisher": "NemoStation",
+   "model": "Marlin-2B",
+   "type": "video-text-to-text",
+   "params": 2213241664,
+   "likes": 604,
+   "downloads_30d": 2604,
+   "created": "2026-05-13",
+   "train_code": false,
+   "papers": [
+    "2501.00513",
+    "2407.00634",
+    "2512.14698"
+   ]
+  },
+  {
+   "id": "nvidia/Nemotron-Orchestrator-8B",
+   "publisher": "nvidia",
+   "model": "Nemotron-Orchestrator-8B",
+   "type": "text-generation",
+   "params": 8190735360,
+   "likes": 599,
+   "downloads_30d": 2703,
+   "created": "2025-11-25",
+   "train_code": false,
+   "papers": [
+    "2511.21689"
+   ]
+  },
+  {
+   "id": "Zyphra/ZAYA1-8B",
+   "publisher": "Zyphra",
+   "model": "ZAYA1-8B",
+   "type": null,
+   "params": 8840488784,
+   "likes": 595,
+   "downloads_30d": 11433,
+   "created": "2026-05-04",
+   "train_code": false,
+   "papers": [
+    "2605.05365"
+   ]
+  },
+  {
+   "id": "TenStrip/LTX2.3-10Eros",
+   "publisher": "TenStrip",
+   "model": "LTX2.3-10Eros",
+   "type": "image-to-video",
+   "params": null,
+   "likes": 588,
+   "downloads_30d": 52985,
+   "created": "2026-04-29",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "harshatheg/Qwen-2.5-1B-RLCD",
+   "publisher": "harshatheg",
+   "model": "Qwen-2.5-1B-RLCD",
+   "type": "text-generation",
+   "params": null,
+   "likes": 583,
+   "downloads_30d": 0,
+   "created": "2026-09-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "unsloth/LTX-2.3-GGUF",
+   "publisher": "unsloth",
+   "model": "LTX-2.3-GGUF",
+   "type": "image-to-video",
+   "params": null,
+   "likes": 582,
+   "downloads_30d": 376318,
+   "created": "2026-03-05",
+   "train_code": false,
+   "papers": [
+    "2601.03233"
+   ]
+  },
+  {
+   "id": "Kijai/MiniMax-H3-experimental",
+   "publisher": "Kijai",
+   "model": "MiniMax-H3-experimental",
+   "type": null,
+   "params": null,
+   "likes": 582,
+   "downloads_30d": 0,
+   "created": "2026-08-05",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "unsloth/gemma-4-12B-it-qat-GGUF",
+   "publisher": "unsloth",
+   "model": "gemma-4-12B-it-qat-GGUF",
+   "type": "any-to-any",
+   "params": null,
+   "likes": 579,
+   "downloads_30d": 457883,
+   "created": "2026-06-05",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "LGAI-EXAONE/K-EXAONE-236B-A23B",
+   "publisher": "LGAI-EXAONE",
+   "model": "K-EXAONE-236B-A23B",
+   "type": "text-generation",
+   "params": 237099669632,
+   "likes": 577,
+   "downloads_30d": 17119,
+   "created": "2025-12-26",
+   "train_code": false,
+   "papers": [
+    "2601.01739"
+   ]
+  },
+  {
+   "id": "nvidia/Gemma-4-31B-IT-NVFP4",
+   "publisher": "nvidia",
+   "model": "Gemma-4-31B-IT-NVFP4",
+   "type": "text-generation",
+   "params": 20868591152,
+   "likes": 577,
+   "downloads_30d": 1309727,
+   "created": "2026-04-02",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "CohereLabs/North-Mini-Code-1.0",
+   "publisher": "CohereLabs",
+   "model": "North-Mini-Code-1.0",
+   "type": "text-generation",
+   "params": 30484303872,
+   "likes": 577,
+   "downloads_30d": 7694,
+   "created": "2026-06-05",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "meituan-longcat/LongCat-Video",
+   "publisher": "meituan-longcat",
+   "model": "LongCat-Video",
+   "type": "text-to-video",
+   "params": null,
+   "likes": 576,
+   "downloads_30d": 2047,
+   "created": "2025-10-24",
+   "train_code": false,
+   "papers": [
+    "2510.22200"
+   ]
+  },
+  {
+   "id": "nvidia/NitroGen",
+   "publisher": "nvidia",
+   "model": "NitroGen",
+   "type": "reinforcement-learning",
+   "params": null,
+   "likes": 576,
+   "downloads_30d": 0,
+   "created": "2025-12-18",
+   "train_code": false,
+   "papers": [
+    "2601.02427"
+   ]
+  },
+  {
+   "id": "unsloth/Muse-Glimmer-30B-GGUF",
+   "publisher": "unsloth",
+   "model": "Muse-Glimmer-30B-GGUF",
+   "type": "image-text-to-text",
+   "params": null,
+   "likes": 563,
+   "downloads_30d": 209778,
+   "created": "2026-08-10",
+   "train_code": false,
+   "papers": [
+    "2504.13181",
+    "2602.06036"
+   ]
+  },
+  {
+   "id": "autotrust/GLM5.3-Flash-E224-DGX-Spark",
+   "publisher": "autotrust",
+   "model": "GLM5.3-Flash-E224-DGX-Spark",
+   "type": "image-text-to-text",
+   "params": 127627162814,
+   "likes": 560,
+   "downloads_30d": 15135,
+   "created": "2026-10-06",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/gemma-4-31B",
+   "publisher": "google",
+   "model": "gemma-4-31B",
+   "type": "image-text-to-text",
+   "params": 32682372656,
+   "likes": 557,
+   "downloads_30d": 495951,
+   "created": "2026-03-12",
+   "train_code": false,
+   "papers": [
+    "2607.02770"
+   ]
+  },
+  {
+   "id": "WeiboAI/VibeThinker-1.5B",
+   "publisher": "WeiboAI",
+   "model": "VibeThinker-1.5B",
+   "type": "text-generation",
+   "params": 1777088000,
+   "likes": 556,
+   "downloads_30d": 3941,
+   "created": "2025-11-04",
+   "train_code": false,
+   "papers": [
+    "2511.06221"
+   ]
+  },
+  {
+   "id": "ornith-ai/Ornith-1.0-9B",
+   "publisher": "ornith-ai",
+   "model": "Ornith-1.0-9B",
+   "type": "text-generation",
+   "params": 1469680,
+   "likes": 555,
+   "downloads_30d": 928243,
+   "created": "2026-06-21",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "HiDream-ai/HiDream-O1-Image",
+   "publisher": "HiDream-ai",
+   "model": "HiDream-O1-Image",
+   "type": "image-text-to-image",
+   "params": 8804887792,
+   "likes": 554,
+   "downloads_30d": 4552,
+   "created": "2026-05-08",
+   "train_code": false,
+   "papers": [
+    "2605.11061"
+   ]
+  },
+  {
+   "id": "huihui-ai/Huihui-Qwen3.8-27B-abliterated",
+   "publisher": "huihui-ai",
+   "model": "Huihui-Qwen3.8-27B-abliterated",
+   "type": "image-text-to-text",
+   "params": 27781427952,
+   "likes": 553,
+   "downloads_30d": 43995,
+   "created": "2026-08-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "XiaomiMiMo/MiMo-V2.6-Flash-RL",
+   "publisher": "XiaomiMiMo",
+   "model": "MiMo-V2.6-Flash-RL",
+   "type": "text-generation",
+   "params": 310756322688,
+   "likes": 550,
+   "downloads_30d": 57567,
+   "created": "2026-09-21",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "netease-youdao/Confucius4-R2T2",
+   "publisher": "netease-youdao",
+   "model": "Confucius4-R2T2",
+   "type": "automatic-speech-recognition",
+   "params": 2038052480,
+   "likes": 547,
+   "downloads_30d": 34704,
+   "created": "2026-09-10",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+   "publisher": "Qwen",
+   "model": "Qwen3-TTS-12Hz-1.7B-Base",
+   "type": null,
+   "params": 1928677440,
+   "likes": 544,
+   "downloads_30d": 3171461,
+   "created": "2026-01-21",
+   "train_code": false,
+   "papers": [
+    "2601.15621"
+   ]
+  },
+  {
+   "id": "baidu/ERNIE-4.5-VL-28B-A3B-Thinking",
+   "publisher": "baidu",
+   "model": "ERNIE-4.5-VL-28B-A3B-Thinking",
+   "type": "image-text-to-text",
+   "params": 29664059776,
+   "likes": 543,
+   "downloads_30d": 705,
+   "created": "2025-11-07",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4-Pro-DSpark",
+   "publisher": "deepseek-ai",
+   "model": "DeepSeek-V4-Pro-DSpark",
+   "type": "text-generation",
+   "params": 1650497936906,
+   "likes": 543,
+   "downloads_30d": 3786,
+   "created": "2026-06-27",
+   "train_code": false,
+   "papers": [
+    "2606.19348"
+   ]
+  },
+  {
+   "id": "datalab-to/chandra-ocr-2",
+   "publisher": "datalab-to",
+   "model": "chandra-ocr-2",
+   "type": "image-text-to-text",
+   "params": 5295564288,
+   "likes": 542,
+   "downloads_30d": 1716810,
+   "created": "2026-03-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "ScottzillaSystems/qwen-image-edit-plus-nsfw-lora",
+   "publisher": "ScottzillaSystems",
+   "model": "qwen-image-edit-plus-nsfw-lora",
+   "type": "image-to-image",
+   "params": null,
+   "likes": 539,
+   "downloads_30d": 259674,
+   "created": "2026-03-16",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+   "publisher": "lightx2v",
+   "model": "Qwen-Image-Edit-2511-Lightning",
+   "type": "image-to-image",
+   "params": null,
+   "likes": 534,
+   "downloads_30d": 351077,
+   "created": "2025-12-22",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "datalab-to/chandra",
+   "publisher": "datalab-to",
+   "model": "chandra",
+   "type": "image-text-to-text",
+   "params": 8767123696,
+   "likes": 532,
+   "downloads_30d": 342308,
+   "created": "2025-10-21",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+   "publisher": "nvidia",
+   "model": "NVIDIA-NemotronLabs-VoiceChat-11B",
+   "type": null,
+   "params": 11095371252,
+   "likes": 531,
+   "downloads_30d": 4382,
+   "created": "2026-07-29",
+   "train_code": false,
+   "papers": [
+    "2410.17196",
+    "2503.04721",
+    "2604.04847",
+    "2609.21967",
+    "2505.15670",
+    "2507.08128"
+   ]
+  },
+  {
+   "id": "nvidia/Nemotron-Cascade-2-30B-A3B",
+   "publisher": "nvidia",
+   "model": "Nemotron-Cascade-2-30B-A3B",
+   "type": "text-generation",
+   "params": 31577937344,
+   "likes": 528,
+   "downloads_30d": 5948,
+   "created": "2026-03-18",
+   "train_code": false,
+   "papers": [
+    "2603.19220"
+   ]
+  },
+  {
+   "id": "tencent/HY-WorldPlay",
+   "publisher": "tencent",
+   "model": "HY-WorldPlay",
+   "type": "image-to-video",
+   "params": null,
+   "likes": 526,
+   "downloads_30d": 388,
+   "created": "2025-12-12",
+   "train_code": false,
+   "papers": [
+    "2512.14614"
+   ]
+  },
+  {
+   "id": "PaddlePaddle/PaddleOCR-VL-1.6",
+   "publisher": "PaddlePaddle",
+   "model": "PaddleOCR-VL-1.6",
+   "type": "image-text-to-text",
+   "params": 958588736,
+   "likes": 526,
+   "downloads_30d": 50368,
+   "created": "2026-05-27",
+   "train_code": false,
+   "papers": [
+    "2606.03264"
+   ]
+  },
+  {
+   "id": "inclusionAI/Ling-3.0-tiny",
+   "publisher": "inclusionAI",
+   "model": "Ling-3.0-tiny",
+   "type": "text-generation",
+   "params": 7893392800,
+   "likes": 522,
+   "downloads_30d": 13709,
+   "created": "2026-08-10",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "ornith-ai/Ornith-1.5-9B-GGUF",
+   "publisher": "ornith-ai",
+   "model": "Ornith-1.5-9B-GGUF",
+   "type": "text-generation",
+   "params": null,
+   "likes": 519,
+   "downloads_30d": 5183101,
+   "created": "2026-08-19",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "nanonets/Nanonets-OCR2-3B",
+   "publisher": "nanonets",
+   "model": "Nanonets-OCR2-3B",
+   "type": "image-text-to-text",
+   "params": 3754622976,
+   "likes": 517,
+   "downloads_30d": 289413,
+   "created": "2025-10-13",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
+   "publisher": "TeichAI",
+   "model": "GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
+   "type": null,
+   "params": null,
+   "likes": 515,
+   "downloads_30d": 5809,
+   "created": "2026-01-22",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "amazon/chronos-2",
+   "publisher": "amazon",
+   "model": "chronos-2",
+   "type": "time-series-forecasting",
+   "params": 119477664,
+   "likes": 514,
+   "downloads_30d": 20044510,
+   "created": "2025-10-30",
+   "train_code": false,
+   "papers": [
+    "2403.07815",
+    "2510.15821"
+   ]
+  },
+  {
+   "id": "lilylilith/AnyPose",
+   "publisher": "lilylilith",
+   "model": "AnyPose",
+   "type": "image-to-image",
+   "params": null,
+   "likes": 512,
+   "downloads_30d": 57041,
+   "created": "2025-12-25",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "google/gemma-4-E2B",
+   "publisher": "google",
+   "model": "gemma-4-E2B",
+   "type": "any-to-any",
+   "params": 5123178051,
+   "likes": 511,
+   "downloads_30d": 234093,
+   "created": "2026-03-02",
+   "train_code": false,
+   "papers": [
+    "2607.02770"
+   ]
+  },
+  {
+   "id": "Noctaluna/Noct-Q-Uncensored-Qwen-Image-2.1",
+   "publisher": "Noctaluna",
+   "model": "Noct-Q-Uncensored-Qwen-Image-2.1",
+   "type": "text-to-image",
+   "params": null,
+   "likes": 510,
+   "downloads_30d": 150345,
+   "created": "2026-09-28",
+   "train_code": false,
+   "papers": []
+  },
+  {
+   "id": "inclusionAI/Ling-2.6-1T",
+   "publisher": "inclusionAI",
+   "model": "Ling-2.6-1T",
+   "type": "text-generation",
+   "params": 1025414425344,
+   "likes": 509,
+   "downloads_30d": 1419,
+   "created": "2026-04-29",
+   "train_code": false,
+   "papers": [
+    "2606.15079"
+   ]
+  },
+  {
+   "id": "inclusionAI/Ling-2.6-flash",
+   "publisher": "inclusionAI",
+   "model": "Ling-2.6-flash",
+   "type": "text-generation",
+   "params": 107494409216,
+   "likes": 506,
+   "downloads_30d": 8127,
+   "created": "2026-04-28",
+   "train_code": false,
+   "papers": [
+    "2606.15079"
+   ]
+  },
+  {
+   "id": "tencent/Hy-MT2-30B-A3B",
+   "publisher": "tencent",
+   "model": "Hy-MT2-30B-A3B",
+   "type": "translation",
+   "params": 30064725888,
+   "likes": 506,
+   "downloads_30d": 4529,
+   "created": "2026-05-11",
+   "train_code": true,
+   "papers": [
+    "2605.22064"
+   ]
+  },
+  {
+   "id": "ornith-ai/Ornith-1.0-35B",
+   "publisher": "ornith-ai",
+   "model": "Ornith-1.0-35B",
+   "type": "text-generation",
+   "params": 664944,
+   "likes": 506,
+   "downloads_30d": 1430290,
+   "created": "2026-06-21",
+   "train_code": false,
+   "papers": []
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+<!doctype html><meta charset=utf-8><title>🤗HuggingFace - Top Models '26</title>
+<meta name=viewport content="width=device-width,initial-scale=1"><style>
+body{background:#111;color:#ddd;font:13px system-ui;margin:20px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:12px}h3{margin:0}
+header .r{margin-left:auto;display:flex;gap:12px;align-items:center}
+.btn{background:#1e2a38;color:#9cf;border:1px solid #2c3e52;border-radius:4px;padding:4px 10px}.btn:hover{background:#243446}
+small{color:#777}table{border-collapse:collapse}
+th{cursor:pointer;text-align:left;color:#9cf;user-select:none;white-space:nowrap}th,td{padding:4px 10px;border-bottom:1px solid #222}
+.n{text-align:right;font-variant-numeric:tabular-nums;width:80px;min-width:80px}
+.rk{width:28px;min-width:28px;padding:4px 6px;font-weight:bold}td.m{white-space:nowrap}
+a{color:#ddd;text-decoration:none}a:hover{color:#9cf}
+.tag{padding:1px 6px;border-radius:3px;font-size:12px}sup{color:#fc6}
+tr.z{background:#1a1a1a}tbody tr:hover{background:#243040}
+td.p{font-size:10px;line-height:1.4;white-space:nowrap}td.p a{color:#9cf}td.p details{display:inline;margin-left:6px}
+td.p summary{display:inline;color:#777;cursor:pointer;list-style:none}td.p details a{display:block}</style>
+<header><h3>🤗HuggingFace - Top Models '26</h3><small id=meta></small>
+<div class=r><a href="https://github.com/franciscocarloserra" target=_blank>GitHub</a>
+<a href="https://x.com/francarloerra" target=_blank>X</a>
+<a class=btn href="data/models.json" download>Download JSON data</a></div></header>
+<table><thead><tr><th class="n rk">#<th>Publisher<th>Model<th>Type<th class=n>Params<th class=n>Likes<th class=n>Downloads<th class=n>Created<th>Train Code<th>Papers</tr></thead><tbody id=b></tbody></table>
+<script>
+const NMAX=40,PMAX=1;
+// column -> field; numeric columns get a heat scale (log, except dates)
+const COLS=[null,'publisher','model','type','params','likes','downloads_30d','created','train_code','papers'];
+const HUE={params:200,likes:330,downloads_30d:140,created:40},DESC=['params','likes','downloads_30d','created','train_code','papers'];
+const GROUP=['publisher','type','train_code'];  // only categorical keys persist as group levels
+let D=[],keys=[],scale={};
+const fmt=n=>n==null?'':n>=1e9?(n/1e9).toFixed(1)+'B':n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e3?(n/1e3).toFixed(1)+'k':n;
+const val=(r,f)=>f=='created'?Date.parse(r.created):f=='papers'?r.papers.length:f=='type'&&!r.type?null:r[f];
+const lg=(x,f)=>f=='created'?x:Math.log1p(x);
+const frac=(r,f)=>{const x=val(r,f);if(x==null)return null;const[a,b]=scale[f];return (lg(x,f)-a)/(b-a||1)};
+const hash=s=>{let h=0;for(const ch of s)h=(h*31+ch.charCodeAt(0))%360;return h};
+const tag=t=>t?`<span class=tag style="background:hsl(${hash(t)},45%,22%);color:hsl(${hash(t)},70%,75%)">${t}</span>`:'';
+const pub=p=>`<td style="color:hsl(${hash(p)},30%,72%)">${p}`;  // soft per-publisher tint
+const heat=(r,f,txt)=>{const x=frac(r,f);return `<td class=n style="background:${x==null?'none':`hsla(${HUE[f]},60%,40%,${(.05+x*.6).toFixed(2)})`}">${txt}`};
+const plink=id=>`<a href="https://arxiv.org/abs/${id}" target=_blank>${id}</a>`;
+const papers=a=>a.slice(0,PMAX).map(plink).join('')+(a.length>PMAX?`<details><summary>+${a.length-PMAX}</summary>${a.slice(PMAX).map(plink).join('')}</details>`:'');
+const cmp=(a,b,f)=>{const x=val(a,f),y=val(b,f);if(x==y)return 0;if(x==null)return 1;if(y==null)return -1;return typeof x=='string'?x.localeCompare(y,undefined,{sensitivity:'base'}):x>y?1:-1};
+const ths=document.querySelectorAll('th');
+function draw(){
+ const rows=[...D].sort((a,b)=>{for(const[f,d]of [...keys,['likes',-1]]){const r=cmp(a,b,f);if(r)return(val(a,f)==null||val(b,f)==null)?r:r*d}return 0});
+ ths.forEach((th,i)=>{th.querySelector('sup')?.remove();const j=keys.findIndex(k=>k[0]==COLS[i]);if(j>=0)th.insertAdjacentHTML('beforeend',`<sup>${keys[j][1]>0?'↑':'↓'}${keys.length>1?j+1:''}</sup>`)});
+ let z=0,prev;const g=keys.length>1?keys[0][0]:null;  // stripe per group when grouped, else per row
+ const band=rows.map((r,i)=>{if(g==null)return i%2;const v=val(r,g);if(i&&v!==prev)z^=1;prev=v;return z});
+ document.getElementById('b').innerHTML=rows.map((r,i)=>`<tr class=${band[i]?'z':''}><td class="n rk">${i+1}${pub(r.publisher)}<td class=m><a href="https://huggingface.co/${r.id}" target=_blank title="${r.model}">${r.model.length>NMAX?r.model.slice(0,NMAX-1)+'…':r.model}</a><td>${tag(r.type)}${heat(r,'params',fmt(r.params))}${heat(r,'likes',fmt(r.likes))}${heat(r,'downloads_30d',fmt(r.downloads_30d))}${heat(r,'created',r.created)}<td>${r.train_code?tag('yes'):''}<td class=p>${papers(r.papers)}</tr>`).join('')}
+ths.forEach((th,i)=>th.onclick=()=>{if(!i){keys=[];return draw()}const f=COLS[i],k=keys.find(k=>k[0]==f);
+ if(k?.[2])keys=keys.filter(x=>x!=k);else if(k){k[1]*=-1;k[2]=1}else{keys=keys.filter(k=>GROUP.includes(k[0]));keys.push([f,DESC.includes(f)?-1:1])}draw()});
+fetch('data/models.json').then(r=>r.json()).then(j=>{D=j.models;
+ document.getElementById('meta').textContent=`${D.length} most-liked models created ${j.since} → ${j.generated}`;
+ for(const f in HUE){const v=D.map(r=>val(r,f)).filter(x=>x!=null).map(x=>lg(x,f));scale[f]=[Math.min(...v),Math.max(...v)]}
+ draw()});
+</script>
