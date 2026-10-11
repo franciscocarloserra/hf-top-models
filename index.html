@@ -7,7 +7,7 @@ header .r{margin-left:auto;display:flex;gap:12px;align-items:center}
 small{color:#777}table{border-collapse:collapse}
 th{cursor:pointer;text-align:left;color:#9cf;user-select:none;white-space:nowrap}th,td{padding:4px 10px;border-bottom:1px solid #222}
 .n{text-align:right;font-variant-numeric:tabular-nums;width:80px;min-width:80px}
-.rk{width:28px;min-width:28px;padding:4px 6px;font-weight:bold}td.m{white-space:nowrap}
+.rk{width:28px;min-width:28px;padding:4px 6px;font-weight:bold}td.m,td.t{white-space:nowrap}
 a{color:#ddd;text-decoration:none}a:hover{color:#9cf}
 .tag{padding:1px 6px;border-radius:3px;font-size:12px}sup{color:#fc6}
 tr.z{background:#1a1a1a}tbody tr:hover{background:#243040}
@@ -19,7 +19,7 @@ td.p summary{display:inline;color:#777;cursor:pointer;list-style:none}td.p detai
 <a class=btn href="data/models.json" download>Download JSON data</a></div></header>
 <table><thead><tr><th class="n rk">#<th>Publisher<th>Model<th>Type<th class=n>Params<th class=n>Likes<th class=n>Downloads<th class=n>Created<th>Train Code<th>Papers</tr></thead><tbody id=b></tbody></table>
 <script>
-const NMAX=40,PMAX=1;
+const NMAX=28,PMAX=1;
 // column -> field; numeric columns get a heat scale (log, except dates)
 const COLS=[null,'publisher','model','type','params','likes','downloads_30d','created','train_code','papers'];
 const HUE={params:200,likes:330,downloads_30d:140,created:40},DESC=['params','likes','downloads_30d','created','train_code','papers'];
@@ -42,7 +42,7 @@ function draw(){
  ths.forEach((th,i)=>{th.querySelector('sup')?.remove();const j=keys.findIndex(k=>k[0]==COLS[i]);if(j>=0)th.insertAdjacentHTML('beforeend',`<sup>${keys[j][1]>0?'↑':'↓'}${keys.length>1?j+1:''}</sup>`)});
  let z=0,prev;const g=keys.length>1?keys[0][0]:null;  // stripe per group when grouped, else per row
  const band=rows.map((r,i)=>{if(g==null)return i%2;const v=val(r,g);if(i&&v!==prev)z^=1;prev=v;return z});
- document.getElementById('b').innerHTML=rows.map((r,i)=>`<tr class=${band[i]?'z':''}><td class="n rk">${i+1}${pub(r.publisher)}<td class=m><a href="https://huggingface.co/${r.id}" target=_blank title="${r.model}">${r.model.length>NMAX?r.model.slice(0,NMAX-1)+'…':r.model}</a><td>${tag(r.type)}${heat(r,'params',fmt(r.params))}${heat(r,'likes',fmt(r.likes))}${heat(r,'downloads_30d',fmt(r.downloads_30d))}${heat(r,'created',r.created)}<td>${r.train_code?tag('yes'):''}<td class=p>${papers(r.papers)}</tr>`).join('')}
+ document.getElementById('b').innerHTML=rows.map((r,i)=>`<tr class=${band[i]?'z':''}><td class="n rk">${i+1}${pub(r.publisher)}<td class=m><a href="https://huggingface.co/${r.id}" target=_blank title="${r.model}">${r.model.length>NMAX?r.model.slice(0,NMAX-1)+'…':r.model}</a><td class=t>${tag(r.type)}${heat(r,'params',fmt(r.params))}${heat(r,'likes',fmt(r.likes))}${heat(r,'downloads_30d',fmt(r.downloads_30d))}${heat(r,'created',r.created)}<td>${r.train_code?tag('yes'):''}<td class=p>${papers(r.papers)}</tr>`).join('')}
 ths.forEach((th,i)=>th.onclick=()=>{if(!i){keys=[];return draw()}const f=COLS[i],k=keys.find(k=>k[0]==f);
  if(k?.[2])keys=keys.filter(x=>x!=k);else if(k){k[1]*=-1;k[2]=1}else{keys=keys.filter(k=>GROUP.includes(k[0]));keys.push([f,DESC.includes(f)?-1:1])}draw()});
 fetch('data/models.json').then(r=>r.json()).then(j=>{D=j.models;
