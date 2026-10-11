@@ -1,8 +1,18 @@
 <!doctype html><meta charset=utf-8><title>🤗HuggingFace - Top Models '26</title>
 <meta name=viewport content="width=device-width,initial-scale=1"><style>
 body{background:#111;color:#ddd;font:13px system-ui;margin:20px}
-header{display:flex;align-items:center;gap:16px;margin-bottom:12px}h3{margin:0}
-header .r{margin-left:auto;display:flex;gap:12px;align-items:center}
+header{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;margin-bottom:12px}h3{margin:0}
+header .l{display:flex;gap:16px;align-items:baseline}header .r{justify-self:end;display:flex;gap:12px;align-items:center}
+.tabs .btn{cursor:pointer;font:inherit}.tabs .btn.on{background:#2c3e52;color:#fff}
+#dash{display:none}#charts{display:grid;grid-template-columns:repeat(auto-fill,minmax(max(360px,calc((100% - 28px)/3)),1fr));gap:14px;margin-top:12px}
+#bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:center}#filters{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{background:#181818;color:#bbb;border:1px solid #2a2a2a;border-radius:12px;padding:2px 9px;font:12px system-ui;cursor:pointer}.chip:hover{border:1px solid #3a4a5a}.chip.on{background:#2c3e52;color:#fff;border-color:#3d5570}
+.chip i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
+.cut{display:flex;align-items:center;gap:6px;margin-left:12px;color:#888;font-size:12px}.cut b{color:#ddd;font-weight:600;min-width:22px}
+#cut{-webkit-appearance:none;appearance:none;width:110px;height:2px;background:#333;border-radius:2px}#cut::-webkit-slider-thumb{-webkit-appearance:none;width:12px;height:12px;border-radius:50%;background:#9cf;cursor:pointer}#cut::-moz-range-thumb{width:12px;height:12px;border:0;border-radius:50%;background:#9cf;cursor:pointer}
+#meta{position:fixed;right:12px;bottom:8px}body{padding-bottom:20px}
+.card{background:#161616;border:1px solid #222;border-radius:6px;padding:10px 12px}.card h4{margin:0 0 4px;color:#ccc;font-weight:600}.card h4 small{font-weight:400;margin-left:6px}.card a:hover{opacity:.8}
+:root{--plot-background:#1b1b1b}
 .btn{background:#1e2a38;color:#9cf;border:1px solid #2c3e52;border-radius:4px;padding:4px 10px}.btn:hover{background:#243446}
 small{color:#777}table{border-collapse:collapse}
 th{cursor:pointer;text-align:left;color:#9cf;user-select:none;white-space:nowrap}th,td{padding:4px 10px;border-bottom:1px solid #222}
@@ -13,11 +23,14 @@ a{color:#ddd;text-decoration:none}a:hover{color:#9cf}
 tr.z{background:#1a1a1a}tbody tr:hover{background:#243040}
 td.p{font-size:10px;line-height:1.4;white-space:nowrap}td.p a{color:#9cf}td.p details{display:inline;margin-left:6px}
 td.p summary{display:inline;color:#777;cursor:pointer;list-style:none}td.p details a{display:block}</style>
-<header><h3>🤗HuggingFace - Top Models '26</h3><small id=meta></small>
+<header><div class=l><h3>🤗HuggingFace - Top Models '26</h3></div>
+<div class=tabs><button class=btn data-v=table>Table</button> <button class=btn data-v=dash>Graphs</button></div>
 <div class=r><a href="https://github.com/franciscocarloserra/hf-top-models" target=_blank>GitHub</a>
 <a href="https://x.com/francarloerra" target=_blank>X</a>
 <a class=btn href="data/models.json" download>Download JSON data</a></div></header>
-<table><thead><tr><th class="n rk">#<th>Publisher<th>Model<th>Type<th class=n>Params<th class=n>Likes<th class=n>Downloads<th class=n>Created<th>Train Code<th>Papers</tr></thead><tbody id=b></tbody></table>
+<section id=dash><div id=bar><span id=filters></span><label class=cut>Top <input id=cut type=range min=10 step=10> <b id=cutv>20</b></label></div><div id=charts></div></section>
+<small id=meta></small>
+<table id=tbl><thead><tr><th class="n rk">#<th>Publisher<th>Model<th>Type<th class=n>Params<th class=n>Likes<th class=n>Downloads<th class=n>Created<th>Train Code<th>Papers</tr></thead><tbody id=b></tbody></table>
 <script>
 const NMAX=28,PMAX=1;
 // column -> field; numeric columns get a heat scale (log, except dates)
@@ -45,8 +58,24 @@ function draw(){
  document.getElementById('b').innerHTML=rows.map((r,i)=>`<tr class=${band[i]?'z':''}><td class="n rk">${i+1}${pub(r.publisher)}<td class=m><a href="https://huggingface.co/${r.id}" target=_blank title="${r.model}">${r.model.length>NMAX?r.model.slice(0,NMAX-1)+'…':r.model}</a><td class=t>${tag(r.type)}${heat(r,'params',fmt(r.params))}${heat(r,'likes',fmt(r.likes))}${heat(r,'downloads_30d',fmt(r.downloads_30d))}${heat(r,'created',r.created)}<td>${r.train_code?tag('yes'):''}<td class=p>${papers(r.papers)}</tr>`).join('')}
 ths.forEach((th,i)=>th.onclick=()=>{if(!i){keys=[];return draw()}const f=COLS[i],k=keys.find(k=>k[0]==f);
  if(k?.[2])keys=keys.filter(x=>x!=k);else if(k){k[1]*=-1;k[2]=1}else{keys=keys.filter(k=>GROUP.includes(k[0]));keys.push([f,DESC.includes(f)?-1:1])}draw()});
-fetch('data/models.json').then(r=>r.json()).then(j=>{D=j.models;
+window.dataP=fetch('data/models.json').then(r=>r.json());
+dataP.then(j=>{D=j.models;
  document.getElementById('meta').textContent=`${D.length} most-liked models created ${j.since} → ${j.generated}`;
  for(const f in HUE){const v=D.map(r=>val(r,f)).filter(x=>x!=null).map(x=>lg(x,f));scale[f]=[Math.min(...v),Math.max(...v)]}
  draw()});
+</script>
+<script type=module>
+// view switch: #dash shows the dashboard, anything else the table
+import {show} from './dashboard.js';
+const route=()=>{const v=location.hash=='#dash'?'dash':'table';
+ document.getElementById('tbl').style.display=v=='table'?'':'none';document.getElementById('dash').style.display=v=='dash'?'block':'none';
+ document.querySelectorAll('.tabs .btn').forEach(b=>b.classList.toggle('on',b.dataset.v==v));if(v=='dash')show()};
+document.querySelectorAll('.tabs .btn').forEach(b=>b.onclick=()=>{location.hash=b.dataset.v=='dash'?'dash':''});
+addEventListener('hashchange',route);route();
+</script>
+<script>
+// dev telemetry: on localhost only, errors go to a local log server (:7812)
+if(/^(localhost|127\.0\.0\.1)$/.test(location.hostname)){const L=(k,m)=>navigator.sendBeacon('http://localhost:7812/log',JSON.stringify({t:Date.now(),k,m:String(m)}));
+ addEventListener('error',e=>L('error',e.message+' @'+e.filename+':'+e.lineno));addEventListener('unhandledrejection',e=>L('reject',e.reason?.stack||e.reason));
+ const ce=console.error,cw=console.warn;console.error=(...a)=>{L('console.error',a.join(' '));ce(...a)};console.warn=(...a)=>{L('console.warn',a.join(' '));cw(...a)}}
 </script>

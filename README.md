@@ -8,6 +8,8 @@ The 300 most-liked models on Hugging Face created in the last year, in a sortabl
 
 Click a column header to sort. First click sorts, second flips, third removes. Publisher, type and train code stack as groups, so Type → Likes ranks within each type. Click `#` to reset.
 
+The Graphs tab (`dashboard.js`, Observable Plot from a CDN) charts the same data. The slider keeps the top N by likes, and the theme buttons filter by LLM, VLM, Image, Video or Speech.
+
 ## Run
 
     python3 fetch.py                 # refresh data/models.json
