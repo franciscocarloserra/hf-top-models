@@ -24,7 +24,7 @@ tr.z{background:#1a1a1a}tbody tr:hover{background:#243040}
 td.p{font-size:10px;line-height:1.4;white-space:nowrap}td.p a{color:#9cf}td.p details{display:inline;margin-left:6px}
 td.p summary{display:inline;color:#777;cursor:pointer;list-style:none}td.p details a{display:block}</style>
 <header><div class=l><h3>🤗HuggingFace - Top Models '26</h3></div>
-<div class=tabs><button class=btn data-v=table>Table</button> <button class=btn data-v=dash>Graphs</button></div>
+<div class=tabs><button class=btn data-v=table>Table</button> <button class=btn data-v=dash>Graphs</button> <a class=btn href="https://franciscocarloserra.github.io/3d-model-weights/" target=_blank style="text-decoration:none">3D Weights ↗</a></div>
 <div class=r><a href="https://github.com/franciscocarloserra/hf-top-models" target=_blank>GitHub</a>
 <a href="https://x.com/francarloerra" target=_blank>X</a>
 <a class=btn href="data/models.json" download>Download JSON data</a></div></header>
@@ -69,8 +69,8 @@ dataP.then(j=>{D=j.models;
 import {show} from './dashboard.js';
 const route=()=>{const v=location.hash=='#dash'?'dash':'table';
  document.getElementById('tbl').style.display=v=='table'?'':'none';document.getElementById('dash').style.display=v=='dash'?'block':'none';
- document.querySelectorAll('.tabs .btn').forEach(b=>b.classList.toggle('on',b.dataset.v==v));if(v=='dash')show()};
-document.querySelectorAll('.tabs .btn').forEach(b=>b.onclick=()=>{location.hash=b.dataset.v=='dash'?'dash':''});
+ document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.v==v));if(v=='dash')show()};
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{location.hash=b.dataset.v=='dash'?'dash':''});
 addEventListener('hashchange',route);route();
 </script>
 <script>
